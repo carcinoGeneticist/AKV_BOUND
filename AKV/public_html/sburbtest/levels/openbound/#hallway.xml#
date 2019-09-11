@@ -1,0 +1,291 @@
+<sburb description="first room">
+
+<dependencies>
+  room1Dialogue.xml
+</dependencies>
+<classes>
+  <animation class='karkat-dialog' frameInterval='6' x='-180' y='-454'/>
+  <animation class='dave-dialog' frameInterval='6' x='-230' y='-454'/>
+</classes>
+
+<assets>
+  <asset name='karkatSheet' type='graphic'>chars/karkat.png</asset>
+  <asset name='daveSheet'   type='graphic'>chars/dave.png</asset>
+
+  <asset name='hallwayWalkable' type='graphic'>backgrounds/hallwayWalkable.png</asset>
+  <asset name='hallwayBG'       type='graphic'>backgrounds/hallway.png</asset>
+  <asset name='hallwayFG'       type='graphic'>backgrounds/hallwayFG3.png</asset>
+  <asset name='staircase'       type='path'>1715,1900;1715,2100;2280,1480;2280;1400</asset>
+
+  <asset name='dave_smug'     type='graphic'>dialogs/dave_smug.png</asset>
+  <asset name='dave_talk'     type='graphic'>dialogs/dave_talk.png</asset>
+  <asset name='dave_huh'      type='graphic'>dialogs/dave_huh.png</asset>
+  <asset name='dave_huhtalk'  type='graphic'>dialogs/dave_huhtalk.png</asset>
+<!--
+  <asset name='dave_concern'  type='graphic'>dialogs/dave_concern.png</asset>
+  <asset name='dave_idle'     type='graphic'>dialogs/dave_idle.png</asset>
+  <asset name='dave_mad'      type='graphic'>dialogs/dave_mad.png</asset>
+  <asset name='dave_madtalk'  type='graphic'>dialogs/dave_madtalk.png</asset>
+-->
+  <asset name='karkat_talk'     type='graphic'>dialogs/karkat_talk.png</asset>
+  <asset name='karkat_facepalm' type='graphic'>dialogs/karkat_facepalm.png</asset>
+  <asset name='karkat_shout'    type='graphic'>dialogs/karkat_shout.png</asset>
+  <asset name='karkat_yell'     type='graphic'>dialogs/karkat_yell.png</asset>
+<!--
+  <asset name='karkat_eyeroll1' type='graphic'>dialogs/karkat_eyeroll1.png</asset>
+  <asset name='karkat_eyeroll2' type='graphic'>dialogs/karkat_eyeroll2.png</asset>
+  <asset name='karkat_horror'   type='graphic'>dialogs/karkat_horror.png</asset>
+  <asset name='karkat_idle'     type='graphic'>dialogs/karkat_idle.png</asset>
+  <asset name='karkat_sullen'   type='graphic'>dialogs/karkat_sullen.png</asset>
+  <asset name='karkat_what'     type='graphic'>dialogs/karkat_what.png</asset>
+-->
+
+</assets>
+
+<hud>
+  <dialogsprites>
+    <animation name='dave_smug' class='dave-dialog' sheet='dave_smug' length='2'/>
+    <animation name='dave_talk' class='dave-dialog' sheet='dave_talk' length='2'/>
+    <animation name='dave_huh' class='dave-dialog' sheet='dave_huh'/>
+    <animation name='dave_huhtalk' class='dave-dialog' sheet='dave_huhtalk' length='2'/>
+<!--
+    <animation name='dave_concern' class='dave-dialog' sheet='dave_concern' length='2'/>
+    <animation name='dave_idle' class='dave-dialog' sheet='dave_idle' />
+    <animation name='dave_mad' class='dave-dialog' sheet='dave_mad' />
+    <animation name='dave_madtalk' class='dave-dialog' sheet='dave_madtalk' length='2'/>
+-->
+    <animation name='karkat_talk' class='karkat-dialog' sheet='karkat_talk' length='2'/>
+    <animation name='karkat_facepalm' class='karkat-dialog' sheet='karkat_facepalm' length='2'/>
+    <animation name='karkat_shout' class='karkat-dialog' sheet='karkat_shout' length='2'/>
+    <animation name='karkat_yell' class='karkat-dialog' sheet='karkat_yell' length='2'/>
+
+  </dialogsprites>
+</hud>
+
+<effects>
+  <animation name='karkatWalk' sheet='karkatSheet' x='-37' y='-65' rowSize='75' colSize='75' length='3' followUp='idleFront'/> 
+</effects>
+
+
+
+
+
+<rooms>
+  <room name='hallwayBG' width='2400' height='2200' walkableMap='hallwayWalkable'>
+  <!-- <paths>
+      <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+
+    </paths>-->
+
+
+
+
+<!--
+    <triggers>-->
+  
+<!--   
+      <trigger>spriteProperty,char,x&gt;2100
+          <action command='deltaSprite'>
+            <args>char,12,0</args>
+            <action command='changeRoomRemote'>roof.xml,roof,x,y</action>
+          </action>
+      </trigger>
+-->
+      
+
+   
+
+
+
+
+
+<!--
+    
+      <trigger detonate='true'>spriteProperty,char,y&gt;1800
+       <action command='changeFocus'>
+          <args>dave</args>
+          <action command='deltaSprite' noWait='true'>
+            <args>dave,-200,0</args>
+            <action command='changeFocus' noWait='true'>
+              <args>char</args>
+            </action>
+          </action>
+        </action> 
+        <action command='becomeNPC' noWait='true'>
+          <args></args>
+          <action command='moveSprite' noWait='true'>
+            <args>dave,1600,2000</args>
+            <action command='playAnimation' noWait='true' noDelay='true'>
+                <args>char,walk</args>
+                <action command='deltaSprite' times='90' noWait='true'>
+                  <args>char,0,200</args>
+                  <action command='moveSprite' noWait='true'>
+                    <action command='becomePlayer'>
+                      <args>char</args>
+                    </action>
+                  </action>
+                </action>
+              </action>
+            </action>
+          </action>
+        </action>
+      </trigger> 
+    
+
+
+
+
+    
+      <trigger detonate='true'>spriteProperty,char,y&gt;1800
+          <action command='becomeNPC'>
+            <args></args>
+          </action>
+            <action command='becomePlayer'>
+              <args>char</args>
+            </action>
+          </action>
+        </trigger>
+
+
+
+
+-->
+<!--
+    <trigger>spriteProperty,char,y&gt;1900
+      <action command='waitFor'>
+        <args>spriteProperty,char,y&gt;2000</args>
+          <action command='deltaSprite' noDelay='true'>
+            <args>char,0,6</args>
+            <action command='playAnimation' noDelay='true'>
+              <args>char,walkFront</args>
+            </action>
+          </action>
+        </action>
+        <trigger detonate='true'>spriteProperty,char,y&gt;2000
+            <action command='moveSprite' noDelay='true'>
+              <args>char,1650,2000</args>
+            </action>
+          </trigger>
+    </trigger>
+
+
+
+
+ -->
+<!-- <trigger detonate='true'>spriteProperty,char,y&gt;1890
+        <trigger>spriteProperty,char,y&gt;1900
+          <trigger>spriteProperty,char,y&lt;2000
+            <action command='deltaSprite'>
+              <args>char,0,6</args>
+            </action>
+          </trigger>
+        </trigger>
+      </trigger>
+
+    <trigger>
+      <trigger detonate='true'>spriteProperty,char,y&gt;1900
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1906
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1912
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1918
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1924
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1930
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+
+      
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1936
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+
+      <trigger detonate='true'>spriteProperty,char,y&gt;1942
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>
+      <trigger detonate='true'>spriteProperty,char,y&gt;1928
+        <action command='deltaSprite'>
+          <args>char,0,6</args>
+        </action>
+      </trigger>-->
+   <triggers>
+        <trigger>spriteProperty,char,y&gt;1950
+          <trigger>spriteProperty,dave,x&lt;1605
+            <action command='waitFor'>
+              <args>time,40</args>
+              <action command='moveSprite' noDelay='true'>
+                <args>char,1650,2000</args>
+                <action command='playAnimation' noDelay='true'>
+                 <args>char,walkFront</args>
+                 
+
+                 <action command='changeFocus' noDelay='true'>
+                  <args>dave</args>
+                  <action command='deltaSprite' noDelay='true'>
+                    <args>dave,4,0</args>
+                 </action>
+               </action>
+             </action>
+             </action>
+            </action>
+            <action command='changeFocus'>
+              <args>char</args>
+            </action>
+          </trigger>
+        </trigger>
+    </triggers>
+
+   <triggers>
+     
+   </triggers>
+
+<!-- karkat x=287 y=230 -->
+ 
+    <character name='karkat' x='287' y='300' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
+    </character>
+    <character name='dave' x='1250' y='2000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkRight' facing='Right'>
+     
+    </character>
+
+    <sprite name='hallwayBG'>
+      <animation sheet='hallwayBG'/> 
+    </sprite>
+    <sprite name='hallwayFG' x='0' y='0' depthing='2'>
+     <animation sheet='hallwayFG'/>
+    </sprite>
+    
+  </room>
+  
+ 
+</rooms>
+</sburb>
