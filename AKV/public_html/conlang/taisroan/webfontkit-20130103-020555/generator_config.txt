@@ -1,5 +1,0 @@
-# Font Squirrel Font-face Generator Configuration File
-# Upload this file to the generator to recreate the settings
-# you used to create these fonts.
-
-{"mode":"expert","formats":["ttf","woff","eotz"],"tt_instructor":"default","fix_vertical_metrics":"Y","fix_gasp":"xy","add_spaces":"Y","add_hyphens":"Y","fallback":"none","fallback_custom":"100","options_subset":"advanced","subset_range":["lowercase"],"subset_custom":"","subset_custom_range":"0021, 0028, 0029, 002c-002e, 0030-003f, 005b, 005d, 007e, 00e1, 00e9, 00ed, 00f0, 00fd, 00fe, 015b, 017a, 01bf, 0283, 0292, 1E83, 2018-201F, ","css_stylesheet":"taisweb.css","filename_suffix":"-webfont","emsquare":"2048","spacing_adjustment":"0","rememberme":"Y"}

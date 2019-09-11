@@ -1,0 +1,1352 @@
+<sburb description="lab2">
+
+  <dependencies>
+
+    <dependency>karkat.xml</dependency>
+    <dependency>dave.xml</dependency>
+    <dependency>rose.xml</dependency>
+    <dependency>lab2log.xml</dependency>
+    <dependency>kanaya.xml</dependency>
+    <dependency>lab1.xml</dependency>
+    <dependency>labCG.xml</dependency>
+    
+  </dependencies>
+
+  <assets>
+
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/slices/lab2_BG_0_0.png</asset>
+        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/slices/lab2_BG_0_1.png</asset>
+        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/slices/lab2_BG_0_2.png</asset>
+        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/slices/lab2_BG_0_3.png</asset>
+        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/slices/lab2_BG_0_4.png</asset>
+        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/slices/lab2_BG_0_5.png</asset>
+        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/slices/lab2_BG_0_6.png</asset>
+
+        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/slices/lab2_BG_1_0.png</asset>
+        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/slices/lab2_BG_1_1.png</asset>
+        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/slices/lab2_BG_1_2.png</asset>
+        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/slices/lab2_BG_1_3.png</asset>
+        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/slices/lab2_BG_1_4.png</asset>
+        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/slices/lab2_BG_1_5.png</asset>
+        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/slices/lab2_BG_1_6.png</asset>
+
+        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/slices/lab2_BG_2_0.png</asset>
+        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/slices/lab2_BG_2_1.png</asset>
+        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/slices/lab2_BG_2_2.png</asset>
+        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/slices/lab2_BG_2_3.png</asset>
+        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/slices/lab2_BG_2_4.png</asset>
+        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/slices/lab2_BG_2_5.png</asset>
+        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/slices/lab2_BG_2_6.png</asset>
+
+        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/slices/lab2_BG_3_0.png</asset>
+        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/slices/lab2_BG_3_1.png</asset>
+        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/slices/lab2_BG_3_2.png</asset>
+        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/slices/lab2_BG_3_3.png</asset>
+        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/slices/lab2_BG_3_4.png</asset>
+        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/slices/lab2_BG_3_5.png</asset>
+        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/slices/lab2_BG_3_6.png</asset>
+
+
+
+        <asset name='lab2_FG_0_0' type='graphic'>backgrounds/slices/lab2_FG_0_0.png</asset>
+        <asset name='lab2_FG_0_1' type='graphic'>backgrounds/slices/lab2_FG_0_1.png</asset>
+        <asset name='lab2_FG_0_2' type='graphic'>backgrounds/slices/lab2_FG_0_2.png</asset>
+        <asset name='lab2_FG_0_3' type='graphic'>backgrounds/slices/lab2_FG_0_3.png</asset>
+        <asset name='lab2_FG_0_4' type='graphic'>backgrounds/slices/lab2_FG_0_4.png</asset>
+        <asset name='lab2_FG_0_5' type='graphic'>backgrounds/slices/lab2_FG_0_5.png</asset>
+        <asset name='lab2_FG_0_6' type='graphic'>backgrounds/slices/lab2_FG_0_6.png</asset>
+
+        <asset name='lab2_FG_1_0' type='graphic'>backgrounds/slices/lab2_FG_1_0.png</asset>
+        <asset name='lab2_FG_1_1' type='graphic'>backgrounds/slices/lab2_FG_1_1.png</asset>
+        <asset name='lab2_FG_1_2' type='graphic'>backgrounds/slices/lab2_FG_1_2.png</asset>
+        <asset name='lab2_FG_1_3' type='graphic'>backgrounds/slices/lab2_FG_1_3.png</asset>
+        <asset name='lab2_FG_1_4' type='graphic'>backgrounds/slices/lab2_FG_1_4.png</asset>
+        <asset name='lab2_FG_1_5' type='graphic'>backgrounds/slices/lab2_FG_1_5.png</asset>
+        <asset name='lab2_FG_1_6' type='graphic'>backgrounds/slices/lab2_FG_1_6.png</asset>
+
+        <asset name='lab2_FG_2_0' type='graphic'>backgrounds/slices/lab2_FG_2_0.png</asset>
+        <asset name='lab2_FG_2_1' type='graphic'>backgrounds/slices/lab2_FG_2_1.png</asset>
+        <asset name='lab2_FG_2_2' type='graphic'>backgrounds/slices/lab2_FG_2_2.png</asset>
+        <asset name='lab2_FG_2_3' type='graphic'>backgrounds/slices/lab2_FG_2_3.png</asset>
+        <asset name='lab2_FG_2_4' type='graphic'>backgrounds/slices/lab2_FG_2_4.png</asset>
+        <asset name='lab2_FG_2_5' type='graphic'>backgrounds/slices/lab2_FG_2_5.png</asset>
+        <asset name='lab2_FG_2_6' type='graphic'>backgrounds/slices/lab2_FG_2_6.png</asset>
+
+        <asset name='lab2_FG_3_0' type='graphic'>backgrounds/slices/lab2_FG_3_0.png</asset>
+        <asset name='lab2_FG_3_1' type='graphic'>backgrounds/slices/lab2_FG_3_1.png</asset>
+        <asset name='lab2_FG_3_2' type='graphic'>backgrounds/slices/lab2_FG_3_2.png</asset>
+        <asset name='lab2_FG_3_3' type='graphic'>backgrounds/slices/lab2_FG_3_3.png</asset>
+        <asset name='lab2_FG_3_4' type='graphic'>backgrounds/slices/lab2_FG_3_4.png</asset>
+        <asset name='lab2_FG_3_5' type='graphic'>backgrounds/slices/lab2_FG_3_5.png</asset>
+        <asset name='lab2_FG_3_6' type='graphic'>backgrounds/slices/lab2_FG_3_6.png</asset>
+
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
+
+         <asset name='stairs1' type='path'>1173,1673;1173,1805;1416,2050;1416,1922</asset>
+        <asset name='stairs2' type='path'>1200,1298;1200,1419;1442,1675;1442,1537</asset>
+        <asset name='stairs3' type='path'>1200,1296;1200,1158;1315,1033;1315,1163</asset>
+
+                <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  
+        <asset name='khaled' type='graphic'>objects/items/i_khaled.png</asset>
+        <asset name='trollTab' type='graphic'>objects/items/i_trolltab.png</asset>  
+        <asset name='oldsickle' type='graphic'>objects/items/i_oldsickle.png</asset> 
+        <asset name='bucket' type='graphic'>objects/items/i_bucket.png</asset>  
+
+
+
+        <asset name='record1' type='audio'>audio/music/record1.ogg;audio/music/record1.mp3</asset>
+        <asset name='record2' type='audio'>audio/music/record2.ogg;audio/music/record2.mp3</asset>
+        <asset name='record3' type='audio'>audio/music/record3.ogg;audio/music/record3.mp3</asset>
+        <asset name='record4' type='audio'>audio/music/record4.ogg;audio/music/record4.mp3</asset>
+        <asset name='record5' type='audio'>audio/music/record5.ogg;audio/music/record5.mp3</asset>
+
+        <asset name='cg' type='graphic'>objects/symbols/cancer.png</asset>
+        <asset name='tc' type='graphic'>objects/symbols/capricorn.png</asset>
+        <asset name='tg' type='graphic'>objects/symbols/dave.png</asset>
+        <asset name='tt' type='graphic'>objects/symbols/rose.png</asset>
+        <asset name='gc' type='graphic'>objects/symbols/libra.png</asset>
+        <asset name='ga' type='graphic'>objects/symbols/virgo.png</asset>
+        
+
+
+  </assets>
+
+  <sprite depthing='3' name='obj01'>
+        <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
+    </sprite>
+
+    <sprite depthing='3' name='khaled'>
+        <animation sheet='khaled'/>
+    </sprite>
+
+    <sprite depthing='3' name='trollTab'>
+        <animation sheet='trollTab'/>
+    </sprite>
+
+    <sprite depthing='3' name='oldsickle'>
+        <animation sheet='oldsickle'/>
+    </sprite>
+
+    <sprite depthing='3' name='bucket'>
+        <animation sheet='bucket'/>
+    </sprite>
+
+  <rooms>
+    <room name='lab2' width='1820' height='3320' walkableMap='lab2_WM'>
+
+        <paths>
+
+                    <motionpath path="stairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+
+            </paths>
+
+            <triggers>
+
+
+
+                <trigger>spriteProperty,char,y&gt;2250
+                    <trigger>spriteProperty,char,y&lt;2300
+                        <trigger detonate='true'>spriteProperty,char,x&lt;500
+                            <action command='talk'>
+                                <args>
+                                    @karkat_talk KARKAT: DAVE?
+                                    @dave_talk DAVE: ...
+                                    @dave_talk DAVE: sup
+                                    @karkat_talk KARKAT: WHAT THE FUCK ARE YOU DOING HERE?
+                                    @dave_talk DAVE: this is like my place what the fuck are you talking about
+                                    @dave_talk DAVE: what do you come around this tiny teleporter room too? ive never seen you around like you cant just act you own every nook and cranny on this meteor dude
+                                    @karkat_talk KARKAT: EVERY WHAT?
+                                    @dave_talk DAVE: like secret easter egg room
+                                    @karkat_talk KARKAT: WHAT’S AN EASTER EGG?
+                                    @dave_talk DAVE: dude nevermind
+                                    @dave_talk DAVE: not in the mood to explain all this human slang shit right now
+                                    @dave_talk DAVE: read a book or something
+                                    @dave_talk DAVE: or watch more shitty earth movies
+                                    @dave_talk DAVE: those could tell way more than i can
+                                    @karkat_talk KARKAT: OK WHATEVER SHUT UP.
+                                    @karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE.
+                                    @karkat_talk KARKAT: NOW THAT I THINK OF IT, WHAT THE FUCK WAS BACK HERE IN THE FIRST PLACE THAT I EVER WENT BACK HERE?
+                                    @dave_talk DAVE: probably the classy lounge area
+                                    @karkat_talk KARKAT: I DON’T EVEN REMEMBER ONE OF THOSE.
+                                    @dave_talk DAVE: whoa youve never been to the classy lounge area
+                                    @dave_talk DAVE: are you trying to say youve never once pressed ctrl t
+                                    @karkat_talk KARKAT: NO I HAVEN’T. I DON’T EVEN-
+                                    @dave_talk DAVE: then check this out follow me 
+                                </args>
+                                <action command='moveSprite'>
+                                    <args>davelab2,1320,430</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+             <!--   <trigger>spriteProperty,char,x&gt;1000
+                    <trigger detonate='true'>spriteProperty,char,y&lt;510
+                        <action command='talk'>
+                            <args>
+                        @dave_smug DAVE: classy lounge area what did i tell you
+                        @dave_smug DAVE: take it all in its pretty snazzy
+                        @karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+                        @dave_talk DAVE: cool place to just chill though
+                        @dave_talk DAVE: i alchemized some songs i had into records
+                        @dave_talk DAVE: theres some other cool stuff you can sample
+                        @dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+                        @karkat_idle KARKAT: ...
+                        @dave_talk DAVE: you should listen to some of them
+                        @karkat_talk KARKAT: NO.
+                        @dave_huhtalk DAVE: dude come on branch out a bit
+                        @karkat_yell KARKAT: NO.
+                        @dave_smug DAVE: give it a chance
+                        @karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+                        @dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+                        @dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+                        @dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+                        @karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+                        @dave_talk DAVE: im putting on music anyway
+                        @karkat_what KARKAT: WHY
+                        @dave_smug DAVE: because i was here first
+                        @dave_smug DAVE: here pick something for me    
+                    </args>
+                    <action command='presentActions' name='actions'>
+                            <args>
+                                <action command='playSong' name='record1'>
+                                    <args>record1</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record2'>
+                                    <args>record2</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record3'>
+                                    <args>record3</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record4'>
+                                    <args>record4</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record5'>
+                                    <args>record5</args>
+                                    
+                                </action>
+                                <action command='talk' name='Talk to Dave.'>
+                                    <args> 
+                                        @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                        @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                        @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                        @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                        @dave_talk DAVE: some crazy shit went down up there
+                                        @karkat_talk KARKAT: WITH ERIDAN?
+                                        @dave_talk DAVE: no after the bubble was gone
+                                        @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                        @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                        @dave_talk DAVE: i heard a lot of screams
+                                        @dave_talk DAVE: even from how far away it was
+                                        @dave_talk DAVE: it sounded like us like everyone
+                                        @dave_talk DAVE: i heard me
+                                        @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                        @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                        @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                        @karkat_horror KARKAT: ...
+                                        @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                        @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                        @karkat_sullen KARKAT: ...
+                                        @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                        @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                        @dave_talk DAVE: lets just chill and check out more music maybe
+                                        @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                        @karkat_talk KARKAT: I HEAR YOU.
+                                    </args>
+                                    
+                                </action>
+                            </args>
+                        </action>
+                </action>
+            </trigger>
+        </trigger>
+
+        <trigger>spriteProperty,char,x&gt;1000
+                    <trigger detonate='true'>spriteProperty,char,y&lt;500
+                        <action command='presentActions'>
+                            <args>
+                                <action command='playSong' name='record1'>
+                                    <args>record1</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record2'>
+                                    <args>record2</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record3'>
+                                    <args>record3</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record4'>
+                                    <args>record4</args>
+                                    
+                                </action>
+                                <action command='playSong' name='record5'>
+                                    <args>record5</args>
+                                    
+                                </action>
+                                <action command='talk' name='Talk to Dave.'>
+                                    <args> 
+                                        @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                        @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                        @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                        @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                        @dave_talk DAVE: some crazy shit went down up there
+                                        @karkat_talk KARKAT: WITH ERIDAN?
+                                        @dave_talk DAVE: no after the bubble was gone
+                                        @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                        @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                        @dave_talk DAVE: i heard a lot of screams
+                                        @dave_talk DAVE: even from how far away it was
+                                        @dave_talk DAVE: it sounded like us like everyone
+                                        @dave_talk DAVE: i heard me
+                                        @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                        @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                        @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                        @karkat_horror KARKAT: ...
+                                        @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                        @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                        @karkat_sullen KARKAT: ...
+                                        @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                        @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                        @dave_talk DAVE: lets just chill and check out more music maybe
+                                        @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                        @karkat_talk KARKAT: I HEAR YOU.
+                                    </args>
+                                    
+                                </action>
+                            </args>
+                        </action>
+                    </trigger>
+                </trigger> -->
+
+
+
+                <trigger>spriteProperty,char,x&lt;850
+                    <trigger detonate='true'>spriteProperty,char,y&gt;2800
+                        <action command='talk'>
+                            <args>
+                                @! Wait? What's that sound? You hear something coming from further away in the meteor. It might be better to follow that than to blindly walk into a wall.
+                            </args>
+                        </action>
+                    </trigger>
+                </trigger>
+
+
+
+             
+
+
+            </triggers>
+
+
+
+                <!-- teleporters-->
+                <!-- lab 2 to lab 1 -->
+                <sprite class='teleporter' name='teleporterPad1' x='1259' y='2112' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoomRemote'>
+                        <args>lab1.xml,lab1,70,3025</args>
+                    </action>
+                </sprite>
+                <!-- top of stairs to 4 way intersection -->
+                <sprite class='teleporter' name='teleporterPad2' x='1585' y='1093' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,403,1714</args>
+                    </action>
+                </sprite>
+                <!-- intersection to stairs -->
+                <sprite class='teleporter' name='teleporterPad3' x='411' y='1714' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,1575,1093</args>
+                    </action>
+                </sprite>
+                <!-- cross to transporter room -->
+                <sprite class='teleporter' name='teleporterPad4' x='411' y='1380' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,1075,2950</args>
+                    </action>
+                </sprite>
+                <!-- teleporter room to intersection -->
+                <sprite class='teleporter' name='teleporterPad5' x='1083' y='2950' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,404,1380</args>
+                    </action>
+                </sprite>
+                <!-- dave tp -->
+                <sprite class='teleporter' name='teleporterPad6' x='440' y='2251' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,1355,555</args>
+                    </action>
+                </sprite>
+                <!-- cross to rose -->
+                <sprite class='teleporter' name='teleporterPad7' x='411' y='1547' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,578,372</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad8' x='588' y='372' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoom'>
+                        <args>lab2,405,1547</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='changeRoomRemote'>
+                        <args>labCG.xml,labCG,210,1725</args>
+                        <action command='removeSprite'>
+                            <args>rose,lab2</args>
+                            <action command='moveSprite'>
+                                <args>kanaya,422,327</args>
+                            </action>
+                        </action>
+                    </action>
+                </sprite> 
+
+                <sprite class='teleporter' name='teleporterPadAC' x='1280' y='2995' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCA' x='893' y='2908' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTC' x='893' y='2995' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAA' x='1025' y='2778' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAT' x='1151' y='2778' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+                <sprite class='teleporter' name='teleporterPadAG' x='1025' y='3125' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGC' x='1151' y='3125' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCT' x='953' y='3070' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCC' x='953' y='2830' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGA' x='1230' y='3070' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTA' x='1230' y='2830' width='110' height='60'>
+                    <animation sheet='teleporterPad' x='-66' y='-30'/>
+                    <action name='Teleport.' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+
+
+                <sprite class='chest' name='chest1' x='1500' y='1950' width='82' height='56' collidable='true'>
+                    <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>chest1,trollTab,
+                        @! You got TROLL TAB!
+                        @! This stuff is a thicker, slimier consistency than the human TAB. It would normally keep colder for longer too, if this were actually kept in a fridge and not haphazardly thrown in a chest. Either way, it doesn't taste any better.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='chest2' x='220' y='1550' width='82' height='56' collidable='true'>
+                <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>chest2,khaled,
+                        @! You got a PUZZLE CUBE!
+                        @! This thing is a clusterfuck if you've ever seen one. What's with the gears and clockfaces? You guess Dave must have alchemized this, but realized it was probably far too ridiculously complicated to actually use for entertainment.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='chest3' x='579' y='1550' width='82' height='56' collidable='true'>
+                <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>chest3,oldsickle,
+                        @! You got an OLD SICKLE!
+                        @! Man. This was a sickle you used before you alchemized the prime weapon in your collection, the HOMES SMELL YA LATER. This was a bit prickly and rather uncomfortable to hold, and the color scheme leaves a lot to be desired. You're glad you've since upgraded.
+                    </args>
+                </action>
+            </sprite>
+
+
+            <sprite class='chest' name='chest4' x='1620' y='1580' width='82' height='56' collidable='true'>
+                <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>chest4,bucket,
+                        @! You got a BUCKET!
+                        @! Gross. Who would leave this here? That doesn't seem very sanitary.
+                    </args>
+                </action>
+            </sprite>
+
+
+
+                <sprite class='coffee' name='coffMach1' x='383' y='154' width='68' height='100'>
+                    <animation name='closed' sheet='coffMachClosedSheet' x='-37' y='-90'/>
+            <animation name='open' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>coffMach1,obj01,
+                        @! You got some COFFEE!
+                        @! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+                        @! You still hang around the place as you drink it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_bookshelf' name='o_bookshelf' x='688' y='138' width='138' height='142' collidable='true'>
+                <animation sheet='o_bookshelf' x='-69' y='-71' />
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! So many titles you haven’t heard of. So many textbooks. That third shelf though... All romance novels. Hey, those two on the end! You were wondering where they went. Oh well, re-reading them isn’t really a priority right now.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_flowers' name='o_flowers' x='837' y='310' width='48' height='52' collidable='true'>
+                <animation sheet='o_flowers' x='-30' y='-30' />
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! Roses are red. Those bottles are blue. Most your friends are dead. Get over it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_grammo' name='o_grammo' x='420' y='432' width='68' height='70' collidable='false'>
+                <animation sheet='o_grammo' x='-34' y='-35' />
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+                        @! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='comp' name='labcomp1' x='838' y='412' width='32' height='42' collidable='true'>
+                <animation sheet='comp' x='-16' y='-21'/>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! It’s currently just a browser on dave/_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
+                    </args>
+                </action>
+            </sprite>
+
+
+<sprite name="cg" x="1335" y="2900" width="32" height="32" collidable="false" depthing='3'>
+                <animation sheet="cg" x="-80" y="-60" length="4" frameInterval="4"/>
+            </sprite>
+            <sprite name="ga" x='1283' y='3060' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='ga' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="gc" x='1205' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='gc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tc" x='943' y='2990' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tt" x='1080' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tt' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tg" x='943' y='2898' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tg' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+
+<sprite class='block' name='block3' x='700' y='2967' height='200' width='200' collidable='true'>
+    <animation sheet='block' x='-100' y='-100'/>
+</sprite>
+
+<sprite class='block' name='timer' x='100' y='3200' height='200' width='200'>
+    <animation sheet='block' x='-100' y='-100'/>
+</sprite>
+               
+        
+<sprite class='block' name='block4' x='1300' y='400' height='200' width='200' collidable='true'>
+    <animation sheet='block' x='-100' y='-100'/>
+                <action command='talk' name='Talk to Dave.'>
+                    <args>
+                        @dave_smug DAVE: classy lounge area what did i tell you
+                        @dave_smug DAVE: take it all in its pretty snazzy
+                        @karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+                        @dave_talk DAVE: cool place to just chill though
+                        @dave_talk DAVE: i alchemized some songs i had into records
+                        @dave_talk DAVE: theres some other cool stuff you can sample
+                        @dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+                        @karkat_idle KARKAT: ...
+                        @dave_talk DAVE: you should listen to some of them
+                        @karkat_talk KARKAT: NO.
+                        @dave_huhtalk DAVE: dude come on branch out a bit
+                        @karkat_yell KARKAT: NO.
+                        @dave_smug DAVE: give it a chance
+                        @karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+                        @dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+                        @dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+                        @dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+                        @karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+                        @dave_talk DAVE: im putting on music anyway
+                        @karkat_what KARKAT: WHY
+                        @dave_smug DAVE: because i was here first
+                        @dave_smug DAVE: here pick something for me    
+                    </args>
+                    
+                        <action command='presentActions' name='actions'>
+                            <args>
+                                <action command='playSong' name='record1'>
+                                    <args>record1</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record2'>
+                                    <args>record2</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record3'>
+                                    <args>record3</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record4'>
+                                    <args>record4</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record5'>
+                                    <args>record5</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='talk' name='Talk to Dave.'>
+                                    <args> 
+                                        @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                        @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                        @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                        @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                        @dave_talk DAVE: some crazy shit went down up there
+                                        @karkat_talk KARKAT: WITH ERIDAN?
+                                        @dave_talk DAVE: no after the bubble was gone
+                                        @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                        @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                        @dave_talk DAVE: i heard a lot of screams
+                                        @dave_talk DAVE: even from how far away it was
+                                        @dave_talk DAVE: it sounded like us like everyone
+                                        @dave_talk DAVE: i heard me
+                                        @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                        @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                        @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                        @karkat_horror KARKAT: ...
+                                        @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                        @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                        @karkat_sullen KARKAT: ...
+                                        @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                        @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                        @dave_talk DAVE: lets just chill and check out more music maybe
+                                        @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                        @karkat_talk KARKAT: I HEAR YOU.
+                                    </args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='removeSprite'>
+                                            <args>block5,lab2</args>
+                                            <action command='moveSprite'>
+                                                <args>block6,1300,400</args>
+                                               <action command='moveSprite'>
+                                                    <args>case,1450,550</args>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </args>
+                        </action>
+                    </action>
+            </sprite>
+
+            <sprite class='block' name='block5' x='3000' y='200' height='200' width='200' collidable='true'>
+                <animation sheet='block' x='-100' y='-100'/>
+                        <action command='playSong' name='record1'>
+                            <args>record1</args>
+                        </action>
+                        <action command='playSong' name='record2'>
+                            <args>record2</args>
+                        </action>
+                        <action command='playSong' name='record3'>
+                            <args>record3</args>
+                        </action>
+                        <action command='playSong' name='record4'>
+                            <args>record4</args>
+                        </action>
+                        <action command='playSong' name='record5'>
+                            <args>record5</args>
+                        </action>
+                        <action command='talk' name='Talk to Dave.'>
+                            <args> 
+                                @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                @dave_talk DAVE: some crazy shit went down up there
+                                @karkat_talk KARKAT: WITH ERIDAN?
+                                @dave_talk DAVE: no after the bubble was gone
+                                @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                @dave_talk DAVE: i heard a lot of screams
+                                @dave_talk DAVE: even from how far away it was
+                                @dave_talk DAVE: it sounded like us like everyone
+                                @dave_talk DAVE: i heard me
+                                @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                @karkat_horror KARKAT: ...
+                                @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                @karkat_sullen KARKAT: ...
+                                @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                @dave_talk DAVE: lets just chill and check out more music maybe
+                                @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                @karkat_talk KARKAT: I HEAR YOU.
+                            </args>
+                            <action command='removeSprite'>
+                                <args>block5,lab2</args>
+                                <action command='moveSprite'>
+                                    <args>block6,1300,400</args>
+                                   <action command='moveSprite'>
+                                        <args>case,1450,550</args>
+                                    </action> 
+                                </action>
+                            </action>
+                        </action>
+            </sprite>
+
+            <sprite class='block' name='block6' x='3000' y='200' height='200' width='200' collidable='true'>
+                <animation sheet='block' x='-100' y='-100'/>
+                        <action command='playSong' name='record1'>
+                            <args>record1</args>
+                        </action>
+                        <action command='playSong' name='record2'>
+                            <args>record2</args>
+                        </action>
+                        <action command='playSong' name='record3'>
+                            <args>record3</args>
+                        </action>
+                        <action command='playSong' name='record4'>
+                            <args>record4</args>
+                        </action>
+                        <action command='playSong' name='record5'>
+                            <args>record5</args>
+                        </action>
+            </sprite>
+
+
+  <!--
+
+      <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
+      </character>
+-->
+      <character name='davelab2' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
+      </character>
+      <character name='rose' x='422' y='327' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='roseSheet' state='walkFront' facing='Front'>
+        <action command='talk' name='Talk to Rose.'>
+        <args>
+        @karkat_talk KARKAT: HEY.
+        @rose_talk ROSE: Hello.
+        @karkat_talk KARKAT: WHAT’S UP?
+        @rose_talk ROSE: Not much. Reading. You?
+        @karkat_talk KARKAT: NOT MUCH.
+        @rose_talk ROSE: Hm.
+        @karkat_talk KARKAT: YEAH.
+       </args>
+       <action command='removeAction'>
+                <args>rose,Talk to Rose.</args>
+                <action command='addAction'>
+                    <args>rose,
+                        <action command='talk' name='Talk to Rose.'>
+                            <args>
+                                @rose_talk ROSE: Did you need anything?
+                                @karkat_what KARKAT: WHAT? NO. NOT REALLY.
+                                @rose_talk ROSE: Alright then. Just making sure.
+                             </args>
+                             <action command='removeAction'>
+                                <args>rose,Talk to Rose.</args>
+                                <action command='addAction'>
+                                    <args>rose,
+                                    <action command='talk' name='Talk to Rose.'>
+                                        <args>
+                                            @rose_talk ROSE: Are you looking for anything in particular?
+                                            @karkat_idle KARKAT: NO. JUST LOOKING AROUND.
+                                            @rose_talk ROSE: Not a specific book or something you left here?
+                                            @karkat_talk KARKAT: I’M JUST NOT IN HERE A LOT AND WANTED TO LOOK THROUGH THINGS.
+                                            @rose_talk ROSE: Fair enough.
+                                        </args>
+                                        <action command='removeAction'>
+                                            <args>rose,Talk to Rose.</args>
+                                            <action command='addAction'>
+                                                <args>rose,
+                                                    <action command='talk' name='Talk to Rose.'>
+                                                       <args>
+                                                           @rose_talk ROSE: If you’re looking for your vacillation novel, it’s not here.
+                                                            @karkat_what KARKAT: OH, NO. I GOT THAT BACK A LONG TIME AGO.
+                                                            @rose_happytalk ROSE: What about the one focusing on the cross-spectrum ashen triangle? Did that ever make its way back to you?
+                                                            @karkat_talk KARKAT: YEAH, I HAVE IT AGAIN.
+                                                            @rose_happytalk ROSE: Just thought I would check.
+                                                        </args> 
+                                                        <action command='removeAction'>
+                                                            <args>rose,Talk to Rose.</args>
+                                                            <action command='addAction'>
+                                                                <args>rose,
+                                                                    <action command='talk' name='Talk to Rose.'>
+                                                                        <args>
+                                                                            @rose_happytalk ROSE: I found a few books on human sociology if you’re interested in academic material. You say you’re into sociological aspects of romance, I figured it may be up your alley.
+                                                                            @karkat_talk KARKAT: I’M MORE OF A NOVEL KIND OF PERSON.
+                                                                            @rose_coytalk ROSE: That’s fine. I’m sure Kanaya would be interested.
+                                                                        </args>
+                                                                        <action command='removeAction'>
+                                                                            <args>rose,Talk to Rose.</args>
+                                                                            <action command='addAction'>
+                                                                                <args>rose,
+                                                                                    <action command='talk' name='Talk to Rose.'>
+                                                                                        <args>
+                                                                                            @rose_talk ROSE: I’ve noticed quite a few things about your behavior since you came in.
+                                                                                            @karkat_talk KARKAT: WAIT, WHAT? I’M NOT TRYING TO START ANYTHING.
+                                                                                            @rose_talk ROSE: No, I’m not implying aggression or confrontation. I mean observations of small micro expressions that allude to your state of mind.
+                                                                                            @karkat_what KARKAT: UH...
+                                                                                            @karkat_what KARKAT: OK...
+                                                                                            @rose_talk ROSE: Though that allows me to make vague inferences, there is quite a bit that is still unclear. You’re quite a dense individual, Karkat.
+                                                                                            @karkat_what KARKAT: WHAT THE HELL IS THAT SUPPOSED TO MEAN?
+                                                                                            @rose_happytalk ROSE: Oh, I guess the word “deep” might have been more fitting. Apologies.
+                                                                                            @karkat_talk KARKAT: I STILL DON’T REALLY LIKE WHERE YOU’RE GOING WITH THIS.
+                                                                                            @rose_talk ROSE: What I’m trying to say is that even though we don’t speak, there are things I’ve noticed with you and your interactions with others that interest me.
+                                                                                            @karkat_what KARKAT: ...
+                                                                                            @karkat_what KARKAT: SO YOU’VE BEEN WATCHING ME LIKE AN ANIMAL TEST SUBJECT AND OBSERVING MY BEHAVIOR?
+                                                                                            @rose_concern ROSE: I’m not saying I do that actively. 
+                                                                                            @rose_concern ROSE: When something happens enough, whether you are giving it your full attention or not, you tend to notice it.
+                                                                                            @rose_concern ROSE: Especially when the amount of people you have contact with for well over a year is so small. It slims down how much there is to notice, you see.
+                                                                                            @karkat_idle KARKAT: ...
+                                                                                            @rose_talk ROSE: Karkat, you’re an intelligent individual, don’t let some defensive paranoia get in the way of understanding what I’m talking about. 
+                                                                                            @karkat_yell KARKAT: WHAT? I’M NOT PARANOID. 
+                                                                                            @rose_annoyedtalk ROSE: Hm, that sure proved me wrong about the defensive part, too.
+                                                                                            @karkat_eyeroll2 KARKAT: ...
+                                                                                            @rose_happytalk ROSE: As someone who has practically zero emotional connection to you, I think this would be a perfect opportunity to put into practice my understanding of some of the subjects I’ve read about on this trip.
+                                                                                            @karkat_yell KARKAT: ALRIGHT NOW YOU’RE GOING SOMEWHERE ELSE WITH THIS AND I’M STILL NOT ENTIRELY SURE I’M OK WITH IT.
+                                                                                            @rose_talk ROSE: May I at least make my suggestion before you dismiss it?
+                                                                                            @karkat_talk KARKAT: SURE. FINE. WHAT IS IT?
+                                                                                            @rose_happytalk ROSE: I’m offering to be your personal psychiatrist, at least experimentally, temporarily, even if it is only once. I’d like to both have the chance to compare your ideals with what I’ve read about Troll Culture as a whole, and give you a window to talk about whatever’s on your whatever-appropriate-alien-slang-for-mind to someone who has no prior bonds to you. A chance for me to learn and for you to get things off your chest.
+                                                                                            @rose_coy ROSE: What do you say?
+                                                                                            @karkat_eyeroll1 KARKAT: NO.
+                                                                                            @rose_sad ROSE: Ok then.
+                                                                                            @rose_talk ROSE: Can’t blame me for trying.
+                                                                                        </args>
+                                                                                        <action command='removeAction'>
+                                                                                            <args>rose,Talk to Rose.</args>
+                                                                                            <action command='addAction'>
+                                                                                                <args>rose,
+                                                                                                    <action command='talk' name='Talk to Rose.'>
+                                                                                                        <args>
+                                                                                                            @karkat_idle KARKAT: OK.
+                                                                                                            @rose_happytalk ROSE: Change your mind this soon?
+                                                                                                            @karkat_talk KARKAT: JUST GIVE ME A SECOND TO DOUBLE-CHECK WITH MY CONSCIENCE.
+                                                                                                            @! Sit through psychotherapy session?
+                                                                                                        </args>
+                                                                                                        <action command='presentActions'>
+                                                                                                            <args>
+                                                                                                                <action command='talk' name='yes'>
+                                                                                                                    <args>
+                                                                                                                        @karkat_sullen KARKAT: ALRIGHT, SURE. I’LL GO THROUGH WITH THIS JUST THIS ONCE.
+                                                                                                                        @rose_happytalk ROSE: Excellent. Have a seat on that couch back there and we can begin.
+                                                                                                                        @! Actually sit through psychotherapy session?
+                                                                                                                    </args>
+
+                                                                                                                    <action command='presentActions'>
+                                                                                                                        <args>
+                                                                                                                            
+                                                                                                                            <action command='fadeOut' name='yes'>
+                                                                                                                                <action command='moveSprite'>
+                                                                                                                                    <args>char,500,230</args>
+                                                                                                                                    <action command='fadeOut'>
+                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                            <args>rose,450,230</args>
+                                                                                                                                            <action command='fadeOut'>
+
+                                                                                                                                    
+                                                                                                                                            <action command='removeSprite'>
+                                                                                                                                                <args>block1,lab1</args>
+                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                                <action command='removeSprite'>
+                                                                                                                                                    <args>block2,lab1</args>
+                                                                                                                                                    <action command='fadeOut'>
+                                                                                                                                                        <action command='removeSprite'>
+                                                                                                                                                            <args>topblock,lab1</args>
+                                                                                                                                                            <action command='fadeOut'>
+                                                                                                                                                    <action command='setGameState'>
+                                                                                                                                                        <args>sleep,true</args>
+                                                                                                                                                        <action command='fadeOut'>
+                                                                                                                                                            <action command='walk'>
+                                                                                                                                                                <args>char,Down</args>
+                                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                                                    <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                                                            <args>timer,100,3200</args>
+                                                                                                                                                        
+                                                                                                                                                            
+                                                                                                                                    
+
+                                                                                                                                <action command='talk'>
+                                                                                                                                <args>
+                                                                                                                                    @karkat_talk KARKAT: OK. ALL SEATED AND WHATEVER.
+                                                                                                                                    @rose_talk ROSE: Comfortable?
+                                                                                                                                    @karkat_talk KARKAT: SURE, WHY NOT. ANCIENT VELVET AND PADDING FROM FUCK KNOWS WHERE SURE SUITS MY ASS JUST LUXURIOUSLY.
+                                                                                                                                    @rose_talk ROSE: Lets also try to tone down on the sarcasm a bit.
+                                                                                                                                    @karkat_yell KARKAT: OH, YOU’RE TELLING ME THAT? WHO WOULD HAVE THOUGHT, YOU OF ALL PEOPLE TELLING OTHERS TO ADJUST THEIR SARCASM.
+                                                                                                                                    @rose_talk ROSE: And lets try to tone down the facetiousness while we’re at it.
+                                                                                                                                    @karkat_eyeroll1 KARKAT: SURE, FINE.
+                                                                                                                                    @rose_coytalk ROSE: Now, where to start...
+                                                                                                                                    @karkat_talk KARKAT: PREFERABLY SOMEWHERE NOT IMMENSELY PERSONAL.
+                                                                                                                                    @rose_talk ROSE: Right.
+                                                                                                                                    @rose_coytalk ROSE: So, how’s your sex life?
+                                                                                                                                    @karkat_facepalm KARKAT: ...
+                                                                                                                                    @rose_happytalk ROSE: Calm down, I’m joking.
+                                                                                                                                    @karkat_yell KARKAT: YOU HAVE AN AWFUL SENSE OF HUMOR.
+                                                                                                                                    @rose_talk ROSE: I’m aware.
+
+                                                                                                                                    @! Joking aside, Rose leads Karkat into the deep, intricate, and somewhat suggestive world of psychoanalysis. The journey is difficult and arduous with many an obstacle keeping them from continuing, those obstacles mostly being Karkat's insecurities.
+
+                                                                                                                                    @! Hours go by. It lasted much longer than a normal psychotherapy session would. But maybe it was less of a psychotherapy session and more of a feelings jam... 
+
+                                                                                                                                    @kanaya_talk KANAYA: I Apologize Am I Intruding On Anything
+
+
+                                                                                                                                    
+
+                                                                                                                                </args>
+                                                                                                                                <action command='moveSprite'>
+                                                                                                                                            <args>kanaya,640,375</args>
+                                                                                                                                                    <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                                            <args>timer,100,3200</args>
+                                                                                                                                                        
+                                                                                                                                        <action command='talk'>
+                                                                                                                                            <args>
+                                                                                                                                                @rose_happytalk ROSE: Not really, I believe we’re just wrapping up.
+                                                                                                                                    @karkat_eyeroll2 KARKAT: (thank god...)
+                                                                                                                                    @kanaya_talk KANAYA: In That Case There Is Something Dave Wanted You For
+                                                                                                                                    @rose_annoyedtalk ROSE: Whatever could that be?
+                                                                                                                                    @kanaya_talk KANAYA: He Asked For You To Look At Something On The Observation Deck He Says He Saw Something Strange
+                                                                                                                                    @rose_coytalk ROSE: Something strange out here? Impossible.
+                                                                                                                                    @kanaya_talk KANAYA: He Seemed Very Distressed I Dont Think This Sarcasm Is Very Appropriate For This Situation
+                                                                                                                                    @rose_concern ROSE: Distressed?
+                                                                                                                                    @rose_talk ROSE: Alright, I’ll go and check out this new and frightening obscurity. Let me know if anything happens.
+                                                                                                                                </args>
+                                                                                                                                <action command='removeSprite'>
+                                                                                                                                                                <args>rose,lab2</args>
+                                                                                                                            </action>
+                                                                                                                        </action>
+                                                                                                                    </action>
+
+
+                                                                                                                                
+                                                                                                                                </action>
+                                                                                                                                                    </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
+                                                                                                                                    </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action></action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action></action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action>
+                                                                                                                                        
+                                                                                                                                            </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
+                                                                                                                                    </action>
+                                                                                                                                </action>
+                                                                                                                            </action>
+                                                                                                                                    </action></action></action>
+                                                                                                                                </action>
+                                                                                                                            </action>
+                                                                                                                        </action>
+                                                                                                                    </action>
+
+                                                                                                                            <action command='talk' name='no'>
+                                                                                                                                <args>
+                                                                                                                                    @karkat_talk KARKAT: YEAH, NEVERMIND. STILL TURNING THAT DOWN.
+                                                                                                                                    @rose_coytalk ROSE: Very well. I’ll still be around if you ever change your mind.
+                                                                                                                                </args>
+                                                                                                                            </action>
+                                                                                                                        </args>
+                                                                                                                    </action>
+                                                                                                                </action>
+                                                                                                                <action command='talk' name='no'>
+                                                                                                                    <args>
+                                                                                                                        @karkat_talk KARKAT: YEAH, NEVERMIND. STILL TURNING THAT DOWN.
+                                                                                                                        @rose_coytalk ROSE: Very well. I’ll still be around if you ever change your mind.
+                                                                                                                    </args>
+                                                                                                                </action>
+                                                                                                            </args>
+                                                                                                        </action>
+                                                                                                    </action>
+                                                                                                </args>
+                                                                                            </action>
+                                                                                        </action>
+
+                                                                                    </action>
+                                                                                </args>
+                                                                            </action>
+                                                                        </action>
+                                                                    </action>
+                                                                </args>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </args>
+                                            </action>
+                                         </action>
+                                    </action>
+                                </args>
+                            </action>
+                        </action>
+                    </action>
+                    </args>
+                </action>
+             </action>
+        </action>
+      </character>
+
+      <character name='kanaya' x='50' y='3200' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='kanayaSheet' state='walkFront' facing='Front'>
+        <action command='talk' name='Talk to Kanaya.'>
+            <args>
+                @kanaya_happytalk KANAYA: Hello Karkat How Rare Of You To Join The Living
+                 @karkat_talk KARKAT: WHAT LIVING? WE'RE THE ONLY ONES HERE. AREN'T YOU DEAD?
+                 @kanaya_bored KANAYA: Could You Just Please Let My Use These Sayings I Have Learned At Least Once
+                 @karkat_eyeroll1 KARKAT: NO, BECAUSE THEY'RE DUMB AND I DON'T LIKE THEM.
+                 @kanaya_bored KANAYA: Fine Have It Your Way
+                 @kanaya_talk KANAYA: Is There Something You Needed From The Common Area 
+                 @karkat_what KARKAT: NO... WHAT, AM I BOTHERING YOU?
+                 @kanaya_talk KANAYA: Of Course Not
+                 @kanaya_talk KANAYA: I Was Planning On Doing A Bit More Research With Rose But Dave Wanted To Show Her Something So Now I Am Just Waiting Until She Returns
+                 @kanaya_happytalk KANAYA: If We Were Busy I Would Let You Stay Anyway As Long As You Used Your Inside Voice
+                 @karkat_talk KARKAT: RIGHT. SURE.
+                 @kanaya_angrytalk KANAYA: Inside Voice Karkat
+                 @karkat_eyeroll2 KARKAT: ...
+                 @karkat_sullen KARKAT: (right. sure.)
+                 @kanaya_happytalk KANAYA: Thank You
+             </args>
+             <action command='removeAction'>
+                <args>kanaya,Talk to Kanaya.</args>
+                <action command='addAction'>
+                    <args>kanaya,
+                        <action command='talk' name='Ask About Studies.'>
+                            <args>
+                                @karkat_talk KARKAT: HAVE YOU LEARNED ANYTHING NEW SINCE THE LAST TIME I WAS BRIEFED ON ALL THIS SHIT? IT SOUNDED LIKE YOU TWO PRETTY MUCH HAD EVERYTHING FIGURED OUT THEN.
+                                 @kanaya_happytalk KANAYA: We Do Have A Good General Idea But There Are Always Gaps To Fill In
+                                 @kanaya_happytalk KANAYA: The More We Look Through All Of This The More Chances There Are We Will Find Something Ground Breaking
+                                 @kanaya_happytalk KANAYA: We Are Learning More About The Challenges That Await Us Bit By Bit And It Means We Will Be More Prepared When We Arrive In The New Session In A Sweeps Time
+                                 @kanaya_happytalk KANAYA: Though Sometimes We Just Look Through Some Of The Books You Brought Back
+                                 @karkat_what KARKAT: WAIT. WHAT EXACTLY THE FUCK IS THERE TO STUDY FROM THOSE?
+                                 @kanaya_happytalk KANAYA: Not Much That Relates To What I Just Saying But Rose Finds That They Illustrate Many Points Aspects Of Troll Culture Quite Colorfully
+                                 @kanaya_talk KANAYA: That Last Part Was A Double Entendre
+                                 @kanaya_smirklaugh KANAYA: Some Of Them Are Quite Raunchy
+                                 @kanaya_smirktalk KANAYA: I Would Say I Never Expected You To Be Interested In That Sort Of Literature But That Would Be Lying
+                                 @karkat_yell KARKAT: DON'T YOU FUCKING JUDGE ME. AT LEAST I WASN'T INTO THOSE FUCK FORSAKEN RAINBOW DRINKER ROMANCE NOVELS FOR WIGGLER SISSIES THAT WET THEIR UNDERGARMENTS.
+                                 @kanaya_bored KANAYA: My Tastes Have Matured Since Then Karkat
+                                 @kanaya_talk KANAYA: I Am Not Going To Judge You Either Quite Honestly I Believe We Could Have Intriguing Book Discussions If You Were At All Interested
+                                 @kanaya_smirktalk KANAYA: It Would Be Refreshing To Talk About These Sort Of Things In A Non Educational Sense
+                                 @karkat_sullen KARKAT: I'LL THINK ABOUT IT.
+                            </args>
+                        </action>
+                    </args>
+                    <action command='addAction'>
+                        <args>kanaya,
+                            <action command='talk' name='Ask About Deadness.'>
+                                <args>
+                                    @karkat_talk KARKAT: I'VE BEEN WONDERING ABOUT SOMETHING.
+                                     @kanaya_idle KANAYA: What Is It
+                                     @karkat_talk KARKAT: ARE THERE ANY PERKS TO BEING A RAINBOW DRINKER? LIKE ARE YOU IMMORTAL NOW THAT YOU DIED ONCE? AND TECHNICALLY ARE STILL DEAD? I STILL DON'T REALLY FULLY GET THAT WHOLE THING.
+                                     @kanaya_talk KANAYA: I Would Try To Explain How It Works But It Basically Boils Down To Strange Magic And I Sometimes Feel Like The Rules That Govern It May As Well Just Be Arbitrarily Random And There Is Not Much I Think You Would Understand Easily
+                                     @karkat_what KARKAT: OK... THEN MAYBE TELL ME WHAT YOU THINK I WOULD UNDERSTAND AT LEAST?
+                                     @kanaya_bored KANAYA: Well I Drink Blood Now
+                                     @karkat_yell KARKAT: OF FUCKING COURSE, I KNEW THAT MUCH.
+                                     @kanaya_bored KANAYA: That Is About All You Would Be Able To Understand
+                                     @karkat_idle KARKAT: ...
+                                </args>
+                            </action>
+                        </args>
+                        <action command='addAction'>
+                            <args>kanaya,
+                                <action command='talk' name='Ask About Hole.'>
+                                    <args>
+                                        @karkat_talk KARKAT: SO WHAT'S UP WITH THAT HUGE HOLE YOU HAD?
+                                         @kanaya_bored KANAYA: I Beg Your Pardon Karkat
+                                         @karkat_talk KARKAT: WHAT? I'M JUST ASKING ABOUT THE HUGE GAPING-
+                                         @kanata_bored KANAYA: Karkat Do Not Even Think Of Completing That Sentence
+                                         @karkat_yell KARKAT: WOW, WHAT THE GRUBPASTE SLATHERED FUCK IS YOUR PROBLEM?
+                                         @kanaya_angrytalk KANAYA: I Am Wondering The Same About Why You Think Its Appropriate To Start Conversations Like That
+                                         @karkat_shout KARKAT: WELL, OBVIOUSLY I GUESS A RABID SHITSQUIRREL CLIMBED UP IT OR SOMETHING, I GUESS THAT ANSWER'S MY QUESTION! THANK YOU!
+                                         @kanaya_angrytalk KANAYA: What The Hell Has Gotten Into You All Of A Sudden
+                                         @kanaya_angrytalk KANAYA: Is It The Coffee What Did I Tell You About Drinking Coffee Karkat
+                                         @karkat_shout KARKAT: I'M JUST TRYING TO ASK A SIMPLE FUCKING QUESTION OUT OF GENERAL CONCERN.
+                                         @kanaya_angrytalk KANAYA: That Is Not Something You Should Be Concerned About
+                                         @kanaya_angrytalk KANAYA: This Is A Simple Concept And I Am Shocked That You Do Not Understand It There Are Subjects That You Should Not Ever Bring Up Publicly
+                                         @kanaya_angrytalk KANAYA: I Know Being Offensive Is Your Specialty But At Least Have Some Damned Common Sense
+                                         @kanaya_bored KANAYA: I Want You To Apologize
+                                         @karkat_sullen KARKAT: ...
+                                         @karkat_sullen KARKAT: I'M SORRY I-
+                                         @kanaya_angrytalk KANAYA: INSIDE VOICES KARKAT
+                                         @karkat_sullen KARKAT: (i'm sorry i asked about your injury, i didn't know that was offensive to jadebloods-)
+                                         @kanaya_idle KANAYA: ...
+                                         @kanaya_idle KANAYA: Injury...
+                                         @kanaya_smirktalk KANAYA: Oh 
+                                         @kanaya_smirklaugh KANAYA: Oh Okay
+                                         @kanaya_smirklaugh KANAYA: Oh Dear God
+                                         @kanaya_smirktalk KANAYA: I Did Not Think You Were Talking About My Injury
+                                         @karkat_what KARKAT: WHAT? THEN-
+                                         @karkat_horror KARKAT: ...
+                                         @karkat_facepalm KARKAT: ...
+                                         @karkat_shout KARKAT: NO NO NO OF FUCKING COURSE NOT WHAT THE HELL IS WRONG WITH YOU!
+                                         @kanaya_smirktalk KANAYA: Let Us Just Forget This Conversation Ever Happened
+                                         @kanaya_smirktalkKANAYA: Yes The Wound Is Nearly Gone Thank You For Asking
+                                         @karkat_talk KARKAT: CAN I SEE? PULL UP YOUR SHIRT.
+                                         @kanaya_angrytalk KANAYA: Karkat!
+                                         @karkat_shout KARKAT: WHAT!
+                                    </args>
+                                </action>
+                            </args>
+                        </action>
+                    </action>
+                </action>
+            </action>
+        </action>
+      </character>
+
+      <sprite name="case" x="1700" y="10" width="76" height="76" collidable="false" depthing='2'>
+                <animation sheet="caseSheet" x="-35" y="-60" length="4" frameInterval="4"/>
+                <action command='talk' name='Ask Case for Credits.'>
+                    <args>
+                        @karkat_what KARKAT: WHEN DID YOU GET HERE?
+                        @case_huh CASE: Well, it looks like you've done everything there is to do, which means the game is over. That means it doesn't have to stay canon.
+                        @karkat_talk KARKAT: OH, SO YOU'RE SHOEHORNING YOURSELF INTO THIS ONE LAST TIME TO TALK ABOUT HOW MUCH WORK YOU'VE DONE?
+                        @case_slytalk CASE: How about instead I just name drop everyone else.
+                        @case_slytalk CASE: Someone I got introduced to right after the blog exploded, who I think helped the blog explode, was Kylee Henke, who’s a triple threat of art, music, and acting. She’s also pretty rad as-is.
+                        @case_idle CASE: Kylee Henke - kyleehenke.tumblr.com
+                        @case_slytalk CASE: Fivetail basically wrote me into existence. I don't really know what else to say about that. 
+                        @case_idle CASE: Fivetail - fivetail.tumblr.com
+                        @case_slytalk CASE: Kinomatika I kind of need to thank for stuff, for getting me to my first convention and sending me a guitar I've used to record many a thing. I owe them that much.
+                        @case_idle CASE: Kino - Kinomatika.tumblr.com
+                        @case_huhtalk CASE: Now the voice actors. Oh jeez.
+                        @case_slytalk CASE: Afina and Tooch I met as fellow ask-bloggers. Thanks to them for all the cool stuff I've gotten a chance to help with.
+                        @case_idle CASE: Afina - 4SKT3R3Z1VO1C3.tumblr.com, celestialtoxophilite.tumblr.com. Tooch - askstridervoice.tumblr.com, miketooch.tumblr.com
+                        @case_talk CASE: Denten is the greatest John voice actor by objectionable fact.
+                        @case_idle CASE: Denten - Denten02.tumblr.com
+                        @case_talk CASE: Finally, major co-developer of this game, Andrew. I met him through this project and shortly found out what an awesome person he was. Let the fact that this game even got done be a testament to that.
+                        @case_idle CASE: Andrew - halfedge.tumblr.com
+                        @case_slytalk CASE: You know what else you guys should check out that most of these guys have worked on? Featherbent. I do music and voice things for it.
+                        @case_idle CASE: Featherbent - Featherbent.com
+                        @case_talk CASE: And a few more odd special thanks just to tack you guys on, since people probably know where to find you anyway. All the other VAs and people I've met and done projects with, Jane, Tamara, Cat, James, Luke, Maddi, Kira, Grant, Jess, Ed, Cory, Tyler, Jay, Mark, Stu, Kami, Ali, Brennan... I'm gonna forget someone if I keep going.
+                        @case_slytalk CASE: Omar I know you aren’t playing, but anyone else who is should post a screenshot of this part on the AKV tag even if there are more already there so I can reblog them and fill his dash with it. Hi Omar, thank you for the insight into licking the entire wiener.
+                        @case_talk CASE: Thanks Michael for planting those two seeds in my head that I should both get into Homestuck and get into voice acting.
+                        @case_slytalk CASE: And thank you THE FUCKING MOST to Andrew Hussie for not only Homestuck and all the amazing opportunities its fandom has brought me, but also for making Karkat’s actions in the story since I started this blog so incredibly convenient for me to fit this blog into a way that makes sense in canon. It’s almost like you’re doing it just for me. It works all too perfectly. We love you, Hussie.
+                        @karkat_what KARKAT: AND WHAT ABOUT YOU?
+                        @case_huh CASE: Hm?
+                        @karkat_talk KARKAT: AREN’T YOU GOING TO DO A LINK BACK TO YOURSELF OR...
+                        @case_slytalk CASE: case.dog
+                        @karkat_eyeroll2 KARKAT: ...
+                        @case_talk CASE: But yeah, thanks everyone, for making this past year the greatest thing that’s happened to me. For everyone who bought my album, you’re getting me through college in tough times. For anyone who’s so much as reblogged any of my posts, you’ve helped me grow. For anyone who’s supported me both through the greatest of praise and the harshest of critique, I thank you for helping me improve.
+                        @karkat_talk KARKAT: REALLY? NO DOUCHEY SELF PROMO OR ANYTHING?
+                        @case_slytalk CASE: You can also buy my EP, We Mars on Bandcamp for 4 dollars at jasoniscariot.bandcamp.c-
+                        @karkat_eyeroll1 KARKAT: THERE WE GO.
+                        @case_madtalk CASE: Oh, and when's that new voice entry coming up?
+                        @karkat_facepalm KARKAT: ...
+                        @karkat_talk KARKAT: I'M PRETTY FUCKING SURE I'M NOT IN CONTROL OF THAT.
+                        @case_talk CASE: Well, we'll get to that whenever. I have a few things in mind. We'll see.
+                        @! You've done everything there is to do. Thanks for listening to, and playing Ask Karkat Vantas's Voice. It's been a long hiatus, but there is more on the way.
+                        @! You can close out at any time, or listen to more records. 
+                    </args>
+                </action>
+            </sprite>
+  
+
+
+      <!-- background ProtoSlice -->
+            <sprite name='lab2_BG'>
+                <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <!-- foreground ProtoSlice -->
+            <sprite name='lab2_FG' depthing='2'>
+                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+    </room>
+  </rooms>
+</sburb>
+ 
+

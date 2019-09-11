@@ -1,0 +1,855 @@
+<sburb description="lab1">
+
+    <dependencies>
+        <dependency>hallwayLog.xml</dependency>
+        <dependency>karkat.xml</dependency>
+        <dependency>dave.xml</dependency>
+        <dependency>terezi.xml</dependency>
+        <dependency>case.xml</dependency>
+        <dependency>sollux.xml</dependency>
+        <dependency>lowaa.xml</dependency>
+        <dependency>lab2.xml</dependency>
+    </dependencies>
+
+    <assets>
+        <asset name="lab1_BG_0_0"   type="graphic">backgrounds/slices/lab1_BG_0_0.png</asset>
+        <asset name="lab1_BG_0_1"   type="graphic">backgrounds/slices/lab1_BG_0_1.png</asset>
+        <asset name="lab1_BG_0_2"   type="graphic">backgrounds/slices/lab1_BG_0_2.png</asset>
+        <asset name="lab1_BG_0_3"   type="graphic">backgrounds/slices/lab1_BG_0_3.png</asset>
+        <asset name="lab1_BG_0_4"   type="graphic">backgrounds/slices/lab1_BG_0_4.png</asset>
+        <asset name="lab1_BG_0_5"   type="graphic">backgrounds/slices/lab1_BG_0_5.png</asset>
+        <asset name="lab1_BG_0_6"   type="graphic">backgrounds/slices/lab1_BG_0_6.png</asset>
+        <asset name="lab1_BG_1_0"   type="graphic">backgrounds/slices/lab1_BG_1_0.png</asset>
+        <asset name="lab1_BG_1_1"   type="graphic">backgrounds/slices/lab1_BG_1_1.png</asset>
+        <asset name="lab1_BG_1_2"   type="graphic">backgrounds/slices/lab1_BG_1_2.png</asset>
+        <asset name="lab1_BG_1_3"   type="graphic">backgrounds/slices/lab1_BG_1_3.png</asset>
+        <asset name="lab1_BG_1_4"   type="graphic">backgrounds/slices/lab1_BG_1_4.png</asset>
+        <asset name="lab1_BG_1_5"   type="graphic">backgrounds/slices/lab1_BG_1_5.png</asset>
+        <asset name="lab1_BG_1_6"   type="graphic">backgrounds/slices/lab1_BG_1_6.png</asset>
+        <asset name="lab1_BG_2_0"   type="graphic">backgrounds/slices/lab1_BG_2_0.png</asset>
+        <asset name="lab1_BG_2_1"   type="graphic">backgrounds/slices/lab1_BG_2_1.png</asset>
+        <asset name="lab1_BG_2_2"   type="graphic">backgrounds/slices/lab1_BG_2_2.png</asset>
+        <asset name="lab1_BG_2_3"   type="graphic">backgrounds/slices/lab1_BG_2_3.png</asset>
+        <asset name="lab1_BG_2_4"   type="graphic">backgrounds/slices/lab1_BG_2_4.png</asset>
+        <asset name="lab1_BG_2_5"   type="graphic">backgrounds/slices/lab1_BG_2_5.png</asset>
+        <asset name="lab1_BG_2_6"   type="graphic">backgrounds/slices/lab1_BG_2_6.png</asset>
+        <asset name="lab1_BG_3_0"   type="graphic">backgrounds/slices/lab1_BG_3_0.png</asset>
+        <asset name="lab1_BG_3_1"   type="graphic">backgrounds/slices/lab1_BG_3_1.png</asset>
+        <asset name="lab1_BG_3_2"   type="graphic">backgrounds/slices/lab1_BG_3_2.png</asset>
+        <asset name="lab1_BG_3_3"   type="graphic">backgrounds/slices/lab1_BG_3_3.png</asset>
+        <asset name="lab1_BG_3_4"   type="graphic">backgrounds/slices/lab1_BG_3_4.png</asset>
+        <asset name="lab1_BG_3_5"   type="graphic">backgrounds/slices/lab1_BG_3_5.png</asset>
+        <asset name="lab1_BG_3_6"   type="graphic">backgrounds/slices/lab1_BG_3_6.png</asset>
+        <asset name="lab1_BG_4_0"   type="graphic">backgrounds/slices/lab1_BG_4_0.png</asset>
+        <asset name="lab1_BG_4_1"   type="graphic">backgrounds/slices/lab1_BG_4_1.png</asset>
+        <asset name="lab1_BG_4_2"   type="graphic">backgrounds/slices/lab1_BG_4_2.png</asset>
+        <asset name="lab1_BG_4_3"   type="graphic">backgrounds/slices/lab1_BG_4_3.png</asset>
+        <asset name="lab1_BG_4_4"   type="graphic">backgrounds/slices/lab1_BG_4_4.png</asset>
+        <asset name="lab1_BG_4_5"   type="graphic">backgrounds/slices/lab1_BG_4_5.png</asset>
+        <asset name="lab1_BG_4_6"   type="graphic">backgrounds/slices/lab1_BG_4_6.png</asset>
+        <asset name="lab1_BG_5_0"   type="graphic">backgrounds/slices/lab1_BG_5_0.png</asset>
+        <asset name="lab1_BG_5_1"   type="graphic">backgrounds/slices/lab1_BG_5_1.png</asset>
+        <asset name="lab1_BG_5_2"   type="graphic">backgrounds/slices/lab1_BG_5_2.png</asset>
+        <asset name="lab1_BG_5_3"   type="graphic">backgrounds/slices/lab1_BG_5_3.png</asset>
+        <asset name="lab1_BG_5_4"   type="graphic">backgrounds/slices/lab1_BG_5_4.png</asset>
+        <asset name="lab1_BG_5_5"   type="graphic">backgrounds/slices/lab1_BG_5_5.png</asset>
+        <asset name="lab1_BG_5_6"   type="graphic">backgrounds/slices/lab1_BG_5_6.png</asset>
+        <asset name="lab1_BG_6_0"   type="graphic">backgrounds/slices/lab1_BG_6_0.png</asset>
+        <asset name="lab1_BG_6_1"   type="graphic">backgrounds/slices/lab1_BG_6_1.png</asset>
+        <asset name="lab1_BG_6_2"   type="graphic">backgrounds/slices/lab1_BG_6_2.png</asset>
+        <asset name="lab1_BG_6_3"   type="graphic">backgrounds/slices/lab1_BG_6_3.png</asset>
+        <asset name="lab1_BG_6_4"   type="graphic">backgrounds/slices/lab1_BG_6_4.png</asset>
+        <asset name="lab1_BG_6_5"   type="graphic">backgrounds/slices/lab1_BG_6_5.png</asset>
+        <asset name="lab1_BG_6_6"   type="graphic">backgrounds/slices/lab1_BG_6_6.png</asset>
+        <asset name="lab1_FG_0_0"   type="graphic">backgrounds/slices/lab1_FG_0_0.png</asset>
+        <asset name="lab1_FG_0_1"   type="graphic">backgrounds/slices/lab1_FG_0_1.png</asset>
+        <asset name="lab1_FG_0_2"   type="graphic">backgrounds/slices/lab1_FG_0_2.png</asset>
+        <asset name="lab1_FG_0_3"   type="graphic">backgrounds/slices/lab1_FG_0_3.png</asset>
+        <asset name="lab1_FG_0_4"   type="graphic">backgrounds/slices/lab1_FG_0_4.png</asset>
+        <asset name="lab1_FG_0_5"   type="graphic">backgrounds/slices/lab1_FG_0_5.png</asset>
+        <asset name="lab1_FG_0_6"   type="graphic">backgrounds/slices/lab1_FG_0_6.png</asset>
+        <asset name="lab1_FG_1_0"   type="graphic">backgrounds/slices/lab1_FG_1_0.png</asset>
+        <asset name="lab1_FG_1_1"   type="graphic">backgrounds/slices/lab1_FG_1_1.png</asset>
+        <asset name="lab1_FG_1_2"   type="graphic">backgrounds/slices/lab1_FG_1_2.png</asset>
+        <asset name="lab1_FG_1_3"   type="graphic">backgrounds/slices/lab1_FG_1_3.png</asset>
+        <asset name="lab1_FG_1_4"   type="graphic">backgrounds/slices/lab1_FG_1_4.png</asset>
+        <asset name="lab1_FG_1_5"   type="graphic">backgrounds/slices/lab1_FG_1_5.png</asset>
+        <asset name="lab1_FG_1_6"   type="graphic">backgrounds/slices/lab1_FG_1_6.png</asset>
+        <asset name="lab1_FG_2_0"   type="graphic">backgrounds/slices/lab1_FG_2_0.png</asset>
+        <asset name="lab1_FG_2_1"   type="graphic">backgrounds/slices/lab1_FG_2_1.png</asset>
+        <asset name="lab1_FG_2_2"   type="graphic">backgrounds/slices/lab1_FG_2_2.png</asset>
+        <asset name="lab1_FG_2_3"   type="graphic">backgrounds/slices/lab1_FG_2_3.png</asset>
+        <asset name="lab1_FG_2_4"   type="graphic">backgrounds/slices/lab1_FG_2_4.png</asset>
+        <asset name="lab1_FG_2_5"   type="graphic">backgrounds/slices/lab1_FG_2_5.png</asset>
+        <asset name="lab1_FG_2_6"   type="graphic">backgrounds/slices/lab1_FG_2_6.png</asset>
+        <asset name="lab1_FG_3_0"   type="graphic">backgrounds/slices/lab1_FG_3_0.png</asset>
+        <asset name="lab1_FG_3_1"   type="graphic">backgrounds/slices/lab1_FG_3_1.png</asset>
+        <asset name="lab1_FG_3_2"   type="graphic">backgrounds/slices/lab1_FG_3_2.png</asset>
+        <asset name="lab1_FG_3_3"   type="graphic">backgrounds/slices/lab1_FG_3_3.png</asset>
+        <asset name="lab1_FG_3_4"   type="graphic">backgrounds/slices/lab1_FG_3_4.png</asset>
+        <asset name="lab1_FG_3_5"   type="graphic">backgrounds/slices/lab1_FG_3_5.png</asset>
+        <asset name="lab1_FG_3_6"   type="graphic">backgrounds/slices/lab1_FG_3_6.png</asset>
+        <asset name="lab1_FG_4_0"   type="graphic">backgrounds/slices/lab1_FG_4_0.png</asset>
+        <asset name="lab1_FG_4_1"   type="graphic">backgrounds/slices/lab1_FG_4_1.png</asset>
+        <asset name="lab1_FG_4_2"   type="graphic">backgrounds/slices/lab1_FG_4_2.png</asset>
+        <asset name="lab1_FG_4_3"   type="graphic">backgrounds/slices/lab1_FG_4_3.png</asset>
+        <asset name="lab1_FG_4_4"   type="graphic">backgrounds/slices/lab1_FG_4_4.png</asset>
+        <asset name="lab1_FG_4_5"   type="graphic">backgrounds/slices/lab1_FG_4_5.png</asset>
+        <asset name="lab1_FG_4_6"   type="graphic">backgrounds/slices/lab1_FG_4_6.png</asset>
+        <asset name="lab1_FG_5_0"   type="graphic">backgrounds/slices/lab1_FG_5_0.png</asset>
+        <asset name="lab1_FG_5_1"   type="graphic">backgrounds/slices/lab1_FG_5_1.png</asset>
+        <asset name="lab1_FG_5_2"   type="graphic">backgrounds/slices/lab1_FG_5_2.png</asset>
+        <asset name="lab1_FG_5_3"   type="graphic">backgrounds/slices/lab1_FG_5_3.png</asset>
+        <asset name="lab1_FG_5_4"   type="graphic">backgrounds/slices/lab1_FG_5_4.png</asset>
+        <asset name="lab1_FG_5_5"   type="graphic">backgrounds/slices/lab1_FG_5_5.png</asset>
+        <asset name="lab1_FG_5_6"   type="graphic">backgrounds/slices/lab1_FG_5_6.png</asset>
+        <asset name="lab1_FG_6_0"   type="graphic">backgrounds/slices/lab1_FG_6_0.png</asset>
+        <asset name="lab1_FG_6_1"   type="graphic">backgrounds/slices/lab1_FG_6_1.png</asset>
+        <asset name="lab1_FG_6_2"   type="graphic">backgrounds/slices/lab1_FG_6_2.png</asset>
+        <asset name="lab1_FG_6_3"   type="graphic">backgrounds/slices/lab1_FG_6_3.png</asset>
+        <asset name="lab1_FG_6_4"   type="graphic">backgrounds/slices/lab1_FG_6_4.png</asset>
+        <asset name="lab1_FG_6_5"   type="graphic">backgrounds/slices/lab1_FG_6_5.png</asset>
+        <asset name="lab1_FG_6_6"   type="graphic">backgrounds/slices/lab1_FG_6_6.png</asset>
+        <asset name="lab1_WM"       type="graphic">backgrounds/lab1_WM.png</asset>
+        <asset name="staircase"     type="path">2572,2100;2572,2260;1715,2950;1715,3100</asset>
+        <asset name="hint"          type="graphic">objects/items/o_sparkle.png</asset>
+        <asset name="itab"          type="graphic">objects/items/i_tab.png</asset>
+        <asset name="gradient"      type="graphic">objects/items/o_gradient.png</asset>
+    </assets>
+
+    <sprite depthing="3" name="itab">
+        <animation sheet="itab"/>
+    </sprite>
+
+    <rooms>
+        <room height="3174" name="lab1" walkableMap="lab1_WM" width="3100">
+
+            <paths>
+                <motionpath dx="0" dy="0" path="staircase" xtox="0.7" xtoy="-0.7" ytox="0" ytoy="1"/>
+            </paths>
+
+            <triggers>
+
+                <trigger>spriteProperty,char,y&lt;1217
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;1205
+                            <action command="changeRoom">
+                                <args>lab1,285,819</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,y&lt;1000
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;915
+                            <action command="changeRoom">
+                                <args>lab1,289,1382</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&gt;2050
+                    <trigger>spriteProperty,char,x&lt;2090
+                        <trigger>spriteProperty,char,y&gt;2586
+                            <action command="changeRoom">
+                                <args>lab1,2564,2176</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&gt;2100
+                    <trigger>spriteProperty,char,x&lt;2450
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <action command="goBack">
+                                <args>char</args>
+                                <action command="talk">
+                                    <args>@! Hold on a second, aren't you needed somewhere?</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&gt;2150
+                    <trigger>spriteProperty,char,x&lt;2560
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <trigger>spriteProperty,gradient,x&lt;500
+                                <action command="changeRoom">
+                                    <args>lab1,1956,2785</args>
+                                </action>
+                            </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger detonate="true">spriteProperty,karkat,x&gt;2612
+                    <action command="talk" noDelay="true">
+                        <args>
+                            @! #008282TEREZI: CH3RRYB3RRY! C4NDYSP1C3! TH3R3 YOU 4R3!##
+                            @! #008282TEREZI: G3T YOUR D1SGUST1NGLY S3DUCT1V3 C4NDY 4SS3S OV3R H3R3 R1GHT NOW B3FOR3 1 D3C1D3 TO S3ND MY P4RTN3R 4FT3R YOU!##
+                            @! #008282TEREZI: 4ND TRUST M3YOU DO NOT W4NT TO G3T ON H3R B4D S1D3 &gt;:]##
+                            @dave_concern DAVE: (oh shit she sees us)
+                            @dave_huh DAVE: (wait a second why are there scalemates laid out like this?)
+                            @dave_concern DAVE: (this could mean one of two things karkat)
+                            @dave_talk DAVE: (weve walked into a setup to a roleplay or theres some kind of weird troll tribal raindance ritual that you didnt tell me about)
+                            @dave_talk DAVE: (am i getting sacrificed or some shit come on you gotta warn a brother about this stuff)
+                            @karkat_talk KARKAT: (first off i’m actually somewhat offended you think our culture is that fucking primitive, and second, why the fuck would anyone try to wish rain from a matterless fucking void?)
+                            @dave_smug DAVE: (dude you havent seen the space rain?)
+                            @dave_smug DAVE: (im pretty surprised but then again id wager its kinda hard to see it or hear it over your dane cook marathons)
+                            @karkat_yell KARKAT: HEY! MY TASTE IN MOVIES IS FUCKING GREAT AND YOU-
+                            @! #008282TEREZI: G3NTL3M3N! ##
+                            @! #008282TEREZI: YOU 4R3 HOLD1NG UP 4N 4CT1V3 1NV3ST1G4T1ON! 1 W1LL NOT OFF3R YOU 4NOTH3R CH4NC3 G3T OV3R H3R3 NOW!##
+                            @karkat_eyeroll2 KARKAT: GAH...
+                            @karkat_talk KARKAT: WELL OBVIOUSLY IT LOOKS LIKE WE’VE WALKED INTO A ROLEPLAY.
+                            @dave_huhtalk DAVE: i say we just let her talk pretend we know what shes talking about and vaguely play along
+                            @dave_huhtalk DAVE: faster we just go with it the faster we leave and then shell probably forget about it
+                            @karkat_idle KARKAT: SURE, WHATEVER.
+                        </args>
+                        <action command="moveSprite">
+                            <args>gradient,324,1338</args>
+                        </action>
+                    </action>
+                </trigger>
+
+                <trigger>spriteProperty,karkat,x&gt;2712
+                    <trigger detonate="true">spriteProperty,karkat,y&lt;1900
+                        <action command="talk" noDelay="true">
+                            <args>
+                                @terezi_talk TEREZI: NOW TH3N THR3SH3CUT1ON3R CH3RRYB3RRY OUR F1RST ORD3R OF BUS1N3SS MUST B3 4 D1SCUSS1ON OF YOUR WH3R34BOUTS ON TH3 D4Y OF TH3 MURD3R
+                                @terezi_talk TEREZI: 4CCORD1NG TO COURT R3CORDS OBT41N3D BY OP3R4TOR HORS D’OVR3S YOU CL41M TH4T YOU L3FT YOUR R3SP1T3BLOCK 4T 4PPROX1M4T3LY 7:45 PM TO R41D TH3 TH3RM4L HULL FOR 4ND 1 QUOT3
+                                @terezi_talk TEREZI: “SN4CKS FOR 4 FUCK1NG 1NCR3D1BL3 JOHN CUS4CK FLICK M4R4THON”
+                                @terezi_talk TEREZI: YOU R3TURN3D TO YOUR R3SP1T3BLOCK 4T 4PPROX1M4T3LY 8:05 PM UPON YOUR R3TURN YOU W3R3 GR33T3D W1TH 4 GR1SLY MURD3R SC3N3!
+                                @terezi_talk TERZI: DO YOU W1SH TO 4DD 4NY D3T41LS TO YOUR T3ST1MONY
+                                @karkat_idle KARKAT: 
+                                @karkat_talk KARKAT: IS THIS SERIOUSLY WHAT YOU WANTED US HERE FOR?
+                                @dave_huh DAVE: i suddenly understand everything
+                                @karkat_talk KARKAT: IS THAT SUPPOSED TO BE “PLAYING ALONG”, DAVE?
+                                @dave_talk DAVE: what i just said i understand everything
+                                @terezi_madtalk TEREZI: YOU ST1LL H4V3 NOT 4NSW3R3D MY QU3ST1ON! MR C4NDYSP1C3 1F YOU CONT1NU3 TO B4DG3R TH3 W1TN3SS 1 W1LL B3 FORC3D TO-
+                                @terezi_huh TEREZI: &gt;:/?
+                                @terezi_laugh TEREZI: OH SP34K1NG OF W1TN3SS3S!
+                                @terezi_talk TEREZI: 1T SM3LLS L1K3 W3 M4Y B3 JO1N3D BY SOM3 N3W BYST4ND3RS SOON &gt;:/]
+                                @karkat_what KARKAT: WHAT DO YOU MEAN MORE BYSTANDERS?
+                                @terezi_talk TEREZI: LOOK!
+                                @terezi_laugh TEREZI: D34R J3GUS K4RK4T 4R3 YOU R34LLY WORS3 4T S331NG TH1NGS COM1NG TH4N TH3 BL1ND G1RL
+                                @! A quick 180 degree turn reveals this in your sight...
+                                @!~drbubble
+                                @! Well would you look at that shit.
+                                @dave_smug DAVE: haha well would you look at that shit saved by the bubble
+                                @karkat_facepalm KARKAT: (please let it be something really fucking distracting. fucking please...)
+                            </args>
+                            <action command="removeSprite">
+                                <args>terezi,lab1</args>
+                                <action command="removeAction">
+                                    <args>teleporterPad,Teleport.</args>
+                                    <action command="addAction">
+                                        <args>
+                                            teleporterPad,
+                                            <action command="changeRoomRemote" name="Teleport.">
+                                                <args>lab2.xml,lab2,1240,2112</args>
+                                            </action>
+                                        </args>
+                                        <action command="unfollow">
+                                            <args>dave</args>
+                                            <action command="removeSprite">
+                                                <args>dave,lab1</args>
+                                                <action command="changeRoomRemote">
+                                                    <args>lowaa.xml,lowaa,830,860</args>
+                                                    <action command="removeSprite">
+                                                        <args>door1,lab1</args>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+
+                <trigger detonate="true">spriteProperty,char,y&gt;2980
+                    <action command="follow">
+                        <args>dave,char</args>
+                        <action class="daveTalk" command="talk" noDelay="true">
+                        </action>
+                    </action>
+                </trigger>
+
+                
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;400
+                        <action command='deltaSprite'>
+                            <args>hint,6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,200,0</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,3000</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+               </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;1600
+                        <action command='deltaSprite'>
+                            <args>hint,0,-6</args>
+                            <action command='deltaSprite'>
+                                <args>hint,0,-8</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,0,-11</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,0,-14</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,0,-18</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,0,-23</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,0,-29</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,0,-35</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,0,-43</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,0,-60</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,0,-200</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,2340</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,y&lt;2400
+                        <action command='deltaSprite'>
+                            <args>hint,-6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,-8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,-11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,-14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,-18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,-23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,-29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,-35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,-43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,-60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,-200,0</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1800,1040</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+               <trigger>
+                    <args>gameState,sleep=true</args> 
+                    <trigger detonate='true'>spriteProperty,char,x&lt;400
+                        <action command='moveSprite'>
+                            <args>hint,500,3020</args>
+                        </action>
+                    </trigger>
+               </trigger> 
+
+
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger>spriteProperty,char,x&gt;1748
+                        <trigger detonate='true'>spriteProperty,char,y&lt;1204
+                        <action command='deltaSprite'>
+                            <args>hint,0,-6</args>
+                            <action command='deltaSprite'>
+                                <args>hint,0,-8</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,0,-11</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,0,-14</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,0,-18</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,0,-23</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,0,-29</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,0,-35</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,0,-43</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,0,-60</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,0,-200</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1750,368</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+            </trigger>
+            <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger >spriteProperty,char,x&gt;1748
+                        <trigger detonate='true'>spriteProperty,char,y&lt;444
+                        <action command='deltaSprite'>
+                            <args>hint,6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,200,0</args>
+                                                                    <action command='removeSprite'>
+                                                                        <args>hint,lab1</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+            </trigger>
+
+
+
+            </triggers>
+
+            <sprite class="teleporter" height="60" name="teleporterPad" width="110" x="75" y="3025">
+                <animation sheet="teleporterPad" x="-66" y="-30"/>
+                <action command="talk" name="Teleport.">
+                    <args>@! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="o_frzr" collidable="true" height="94" name="o_frzr" width="142" x="1000" y="360">
+                <animation name="closed" sheet="o_frzr" x="-70" y="-40"/>
+                <animation followUp="opened" loopNum="0" name="open" sheet="o_frzro" x="-70" y="-40"/>
+                <animation loopNum="0" name="opened" sheet="o_frzro" x="-70" y="-40"/>
+                <action command="talk" name="Examine.">
+                    <args>@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+                    </args>
+                    <action command="removeAction">
+                        <args>o_frzr,Examine.</args>
+                        <action command="addAction">
+                            <args>o_frzr,
+                            <action command="openChest" name="Open.">
+                                <args>o_frzr,itab,
+                                    @! You got TAB!
+                                    @! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+                                </args>
+                            </action>
+                            </args>
+                        </action>
+                    </action>
+                </action>
+            </sprite>
+
+            <sprite class="alch" collidable="true" height="150" name="alch" width="208" x="331" y="430">
+                <animation sheet="alch" x="-100" y="-100"/>
+                <action command="talk" name="Examine">
+                    <args>
+                        @! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like.
+                        @! You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together.
+                        @! Some of them turned out alright, though with some confusing plots. &quot;50 lucky First Dates with Chuck&quot; was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
+                        @! You don't really have anything to alchemize right now.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="o_crabphone" collidable="true" height="16" name="o_crabphone" width="40" x="20" y="1500">
+                <animation sheet="o_crabphone" x="-20" y="-8"/>
+                <action command="talk" name="Examine crabphone.">
+                    <args>
+                        @! A crabphone. Look at this piece of shit. 
+                        @! You swear you're one away from your 70th iteration of these things with how much alchemizing and scapping you've had to do. Even after your crabtop started working again you still feel the urge to get something else working for some redundant and unecessary reason.
+                    </args>
+                    <action command="removeSprite">
+                        <args>o_crabphone,lab1</args>
+                    </action>
+                </action>
+            </sprite>
+
+            <sprite class="o_frznfrzr" collidable="true" height="94" name="o_frznfrzr" width="142" x="780" y="360">
+                <animation sheet="o_frznfrzr" x="-75" y="-40"/>
+                <action command="talk" name="Examine.">
+                    <args>
+                        @! This is one of the human freezers. It looks to be completely frosted over and frozen shut. Insolent humans.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="comp" collidable="true" height="42" name="comp1" width="32" x="331" y="2042">
+                <animation sheet="comp" x="-16" y="-21"/>
+                <action command="talk" name="Examine.">
+                    <args>
+                       @! This looks familiar...
+                       @! wrigglerbase, hemoglobin, hemogoblin (avoiid at all co2t2), redgrub, nubhub...
+                       @! These sites' names are quite suspicious. It's easy to tell what they are. You wonder if you can get to them still...
+                       @! With that Captor behind you, it's probably best you leave that thought unanswered.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="comp" collidable="true" height="42" name="comp2" width="32" x="331" y="2097">
+                <animation sheet="comp" x="-16" y="-21"/>
+                <action command="talk" name="Examine.">
+                    <args>
+                       @! It appears to be a script for something.
+                       @! &quot;May the sweep carry you to great heights.&quot;
+                       @! &quot;Don't look down.&quot;
+                       @! Lame.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="comp" collidable="true" height="42" name="comp3" width="32" x="331" y="2159">
+                <animation sheet="comp" x="-16" y="-21"/>
+                <action command="talk" name="Examine.">
+                    <args>
+                       @! More lyrics on this one, it looks like.
+                       @! Some indie shit about insomnia or something.
+                       @! Pass.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="comp" collidable="true" height="42" name="comp4" width="32" x="331" y="2222">
+                <animation sheet="comp" x="-16" y="-21"/>
+                <action command="talk" name="Examine.">
+                    <args>
+                       @! There is an IM conversation open...
+                       @!~gameplan
+                       @! ANDREW: if you don't want there to be a loading time inbetween lowaa happening, just put it on the same image as the roof.
+                       @! CASE: I wouldn't mind a loading time really
+                       @! ANDREW: also what are the little red arrows?
+                       @! CASE: the red arrows are the opposing team attacking the linebacker
+                       @! CASE: obvs
+                       @! ANDREW: oh. how ever did i miss that.
+                       @! ANDREW: this is some a+ strategy you got going on there.  we're sure to win in the playoffs with your brilliance on our side.
+                       @! Dumb.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite collidable="false" depthing="2" height="100" name="gradient" width="86" x="1000" y="2000">
+                <animation sheet="gradient" x="-80" y="-60"/>
+            </sprite>
+
+            <sprite name="hint" x="2500" y="10" width="26" height="24" collidable="false" depthing='3'>
+                <animation sheet="hint" x="-16" y="-16" length="8" frameInterval="4"/>
+            </sprite>
+
+            <sprite class="door" collidable="true" height="108" name="door1" width="86" x="272" y="1309">
+                <animation sheet="door" x="-28" y="-40"/>
+                <action command="talk" name="Open.">
+                    <args>
+                        @! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class="block" collidable="true" height="200" name="block1" width="200" x="1476" y="2369"/>
+            <sprite class="block" collidable="true" height="200" name="block2" width="200" x="1850" y="2550"/>
+            <sprite class="block" collidable="true" height="200" name="topblock" width="200" x="2750" y="1550"/>
+
+            <character facing="Front" height="16" name="karkat" sHeight="75" sWidth="75" sheet="karkatSheet" state="walkFront" sx="-37" sy="-65" width="36" x="300" y="1500"/>
+
+            <character facing="Front" height="16" name="dave" sHeight="75" sWidth="75" sheet="daveSheet" state="walkFront" sx="-37" sy="-65" width="36" x="1560" y="3030"/>
+
+            <character facing="Front" height="16" name="sollux" sHeight="75" sWidth="75" sheet="solluxSheet" state="walkFront" sx="-37" sy="-65" width="36" x="100" y="2100">
+                <action command="talk" name="Ask where you are.">
+                    <args>
+                        @sollux_pun SOLLUX: 2up kk, welcome two the fandom room.
+                        @karkat_talk KARKAT: WHAT THE HELL DOES THAT EVEN MEAN?
+                        @sollux_lisp SOLLUX: iit mean2 that ba2iically, nothiing iin here could be con2iidered canon. iit’2 kiind of like a...
+                        @karkat_talk KARKAT: WHAT ABOUT CANNONS?
+                        @karkat_yell KARKAT: WHAT IN THE FUCK ARE YOU TALKING ABOUT?
+                        @karkat_talk KARKAT: ACTUALLY, WAIT A SECOND. DIDN’T YOU LOSE YOUR EYES AND TEETH?
+                        @karkat_talk KARKAT: HAVE YOU BEEN IN THIS LAB THE WHOLE TIME?
+                        @sollux_talk SOLLUX: kk ii ju2t fuckiing told you.
+                        @karkat_yell KARKAT: I DON’T EVEN REMEMBER THIS ROOM EXISTING.
+                        @sollux_madtalk SOLLUX: hey maybe you 2hould 2hut your flutteriing 2eedflap and let me 2peak.
+                        @karkat_shout KARKAT: NO, I HAVE TOO MANY QUESTIONS.
+                        @sollux_shock SOLLUX: THEN LET ME FUCKIING AN2WER THEM, 2HIIT2PONGE
+                        @karkat_yell KARKAT: FUCK, OK, FINE!
+                        @karkat_eyeroll2 KARKAT: FINE... GO ON.
+                        @sollux_madtalk SOLLUX: alriight, what ii was tryiing two 2ay......
+                        @! They proceeded to have the most 4th wall breaking discussion in the history of walkaround games.
+                        @karkat_talk KARKAT: OH WOW. THAT’S ALL KIND OF FASCINATING ACTUALLY. IT CLEARS UP A LOT.
+                        @sollux_pun SOLLUX: there, 2ee? iit’2 not that hard two get. the down2iide ii2 that you won’t remember anythiing about what ii told you once you leave thii2 room.
+                        @karkat_what KARKAT: ... WHAT?
+                        @sollux_talk SOLLUX: thii2 room doe2n’t exii2t iin canon, kk.
+                        @karkat_talk KARKAT: ... SO ALL THE TIME I JUST SPENT HERE WAS POINTLESS?
+                        @sollux_lisp SOLLUX: no tiime ha2 pa22ed iin canon 2iince you got here.
+                        @karkat_what KARKAT: ...
+                        @sollux_talk SOLLUX: iif you 2omehow wander back here you’ll 2tiill remember what went on here though.
+                        @sollux_lisp SOLLUX: but what happen2 iin the fandom, 2tay2 iin the fandom.
+                        @sollux_talk SOLLUX: unle22 that orange guy deciide2 two iintegrate iit iintwo canon.
+                        @sollux_talk SOLLUX: whiich ii am certaiin wiil never be the ca2e wiith thii2 room.
+                        @karkat_what KARKAT: ...
+                        @karkat_talk KARKAT: I GUESS I’ll KEEP THAT IN MIND?
+                        @karkat_idle KARKAT: ONE MORE QUESTION.
+                        @karkat_talk KARKAT: WHY THE FUCK ARE YOU THE ONE EXPLAINING THIS TO ME?
+                        @sollux_pun SOLLUX: becau2e iim the voiice’2 favoriite character.
+                        @karkat_what KARKAT: WAIT, THE VOICES OR THE VOICE’S?
+                        @sollux_pun SOLLUX: oh look at that you're piickiing up on thiing2.
+                        @sollux_talk SOLLUX: for all you know thii2 room miight be ba2ed off 2omethiing from a 2olkat rp.
+                        @sollux_talk SOLLUX: thiink about that for a whiile, kk.
+                        @karkat_what KARKAT: DO NOT TELL ME THAT &quot;SOLKAT&quot; MEANS WHAT I THINK IT MEANS...
+                        @sollux_pun SOLLUX: oh iit can mean whatever you want iit two, kk.
+                        @karkat_horror KARKAT: ...
+                        @karkat_facepalm KARKAT: FUCK, I...
+                        @! You need a second to let your mind clear.
+                    </args>
+                    <action command="removeAction">
+                        <args>sollux,Ask where you are.</args>
+                        <action command="addAction">
+                            <args>sollux,
+                                <action command="talk" name="Get hints.">
+                                    <args>
+                                        @karkat_talk KARKAT: OK, SO IS THIS THE ONLY PLACE THAT IS JUST MAGICALLY NOT CANON?
+                                        @sollux_talk SOLLUX: ii know ii 2aiid you won’t remember anythiing that happen2 out2iide thii2 room 2o iit would not even matter iif ii told you.
+                                        @sollux_lisp SOLLUX: but no, there’2 another 2ecret nearby.
+                                        @sollux_pun SOLLUX: and two fiind iit you have two tell the diifference between goiing _up_ and goiing _up_.
+                                        @sollux_talk SOLLUX: there you may fiind a voiice.
+                                        @karkat_talk KARKAT: THIS IS WAY TOO CRYPTIC FOR ME TO UNDERSTAND.
+                                        @sollux_madtalk SOLLUX: well iif ii gave iit away, iit wouldn’t be a 2ecret, would iit?
+                                        @sollux_talk SOLLUX: iit’2 a 2ecret two everyone.
+                                        @karkat_what KARKAT: I CAN’T ASK FOR ANY MORE HINTS?
+                                        @sollux_talk SOLLUX: maybe, maybe not...
+                                        @sollux_pun SOLLUX: let'2 ju2t 2ay ii warned you, bro.
+                                    </args>
+                                </action>
+                            </args>
+                            <action command="addAction">
+                                <args>sollux,
+                                    <action command="talk" name="Ask about style.">
+                                        <args>
+                                            @sollux_talk SOLLUX: 밤에는 따사로운 인간적인 여자. 커피 한잔의 여유를 아는 품격 있는 여자. 낮이 오면 심장이 뜨거워지는 여자. 그런 반전 있는 여자.
+                                            @karkat_what KARKAT: WHAT? I’M NOT SURE I UNDERSTOOD THAT.
+                                            @sollux_talk SOLLUX: 나는 트롤이. 낮에는 너만큼 따사로운 그런 트롤이. 커피 식기도 전에 원샷 때리는 트롤이. 밤이 오면 심장이 터져버리는 트롤이. 그런 트롤이.
+                                            @karkat_talk KARKAT: DUDE I’M NOT GETTING ANY OF THIS, SLOW DOWN!
+                                            @sollux_talk SOLLUX: 아름다워 사랑스러워. 
+                                            @karkat_talk KARKAT: SOLLUX ARE YOU EVEN LISTENING TO ME?
+                                            @sollux_talk SOLLUX: 그래 너.
+                                            @karkat_yell KARKAT: HEY.
+                                            @sollux_talk SOLLUX: 그래 바로 너.
+                                            @karkat_shout KARKAT: HEY!
+                                            @sollux_talk SOLLUX: 아름다워 사랑스러워.
+                                            @karkat_shout KARKAT: YOU’RE DOING THIS JUST TO FUCK WITH ME AREN’T YOU?
+                                            @sollux_talk SOLLUX: 그래 너.
+                                            @karkat_yell KARKAT: NO.
+                                            @sollux_pun SOLLUX:그래 바로 너.
+                                            @karkat_shout KARKAT: FUCKING STOP!
+                                            @sollux_pun SOLLUX: 지금부터 갈 데까지 가볼까...
+                                            @sollux_pun SOLLUX: ...
+                                            @karkat_idle KARKAT: ...
+                                            @karkat_what KARKAT: ARE YOU DONE?
+                                            @sollux_pun SOLLUX: 오빠 캎터남스타일!
+                                            @karkat_shout KARKAT: SOLLUX, SHUT THE FUCK UP!
+                                            @sollux_talk SOLLUX: thii2 i2 the 2ong of my people kk.
+                                            @karkat_yell KARKAT: WHAT?
+                                            @sollux_pun SOLLUX: iit i2 liike the holy anthem of 2wag.
+                                            @karkat_yell KARKAT: WHAT IN HOLY BULGEMUNCHING FUCK IS SWAG?
+                                            @sollux_talk SOLLUX: eh, nevermiind.
+                                        </args>
+                                    </action>
+                                </args>
+                                <action command="addAction">
+                                    <args>sollux,
+                                        <action command="talk" name="Ask personal question.">
+                                            <args>
+                                                @karkat_idle KARKAT: SO... 
+                                                @sollux_talk SOLLUX: ... yeah?
+                                                @karkat_talk KARKAT: CAN I ASK YOU A SERIOUS QUESTION?
+                                                @sollux_talk SOLLUX: ii don't have two bulge2, kk.
+                                                @karkat_idle KARKAT: OH. OK.
+                                            </args>
+                                        </action>
+                                    </args>
+                                </action>
+                            </action>
+                        </action>
+                    </action>
+                </action>
+            </character>
+
+            <character facing="Front" height="16" name="terezi" sHeight="75" sWidth="75" sheet="tereziSheet" state="walkFront" sx="-37" sy="-65" width="36" x="2737" y="1767"/>
+
+            <sprite collidable="false" depthing="2" height="76" name="caseSheet" width="76" x="2680" y="244">
+                <animation frameInterval="4" length="4" sheet="caseSheet" x="-35" y="-60"/>
+                <action command="talk" name="AskKarkatVoice.">
+                    <args>
+                        @karkat_talk KARKAT: WHAT THE FUCK ARE YOU SUPPOSED TO BE.
+                        @voice_talk VOICE: YOUR VOICE.
+                        @karkat_horror KARKAT: WHAT? WHOA. HOW DID YOU DO THAT?
+                        @voice_idle VOICE: I’VE HAD ABOUT 2 YEARS OF PRACTICE.
+                        @karkat_what KARKAT: PRACTICE BEING ME?
+                        @voice_idle VOICE: PRETTY MUCH, YEAH.
+                        @karkat_talk KARKAT: CAN YOU... STOP?
+                        @voice_talk VOICE: Yeah, anytime.
+                        @karkat_talk KARKAT: THAT’S A LOT LESS CREEPY, THANK YOU.
+                        @voice_idle VOICE: No probs.
+                        @karkat_what KARKAT: SO... HOW ARE YOU HERE?
+                        @voice_talk VOICE: Canonically, I’m not. I’m in a blank space that isn’t part of the game. The walk map just lets you go up here so I thought I’d just chill here.
+                        @karkat_what KARKAT: ...
+                        @voice_idle VOICE: What?
+                        @karkat_talk KARKAT: SO YOU’RE PART OF THE FANDOM THING I HEARD ABOUT IN THE OTHER ROOM?
+                        @voice_talk VOICE: Fanon, yeah.
+                        @karkat_talk KARKAT: YOU MUST BE PRETTY BIG IN FANON TO BE ABLE TO SHOW UP HERE...
+                        @voice_talk VOICE: Not very. A lot of people call me a “headcanon voice.” When people read your text, they hear my voice in their head.
+                        @voice_idle VOICE: Some people prefer other voice actors for you. A lot of other more experienced actors have been around longer and have their foot planted pretty solid in Karkat territory. I’m lucky I have what I have.
+                        @karkat_yell KARKAT: TERRITORY? PEOPLE HAVE TO LIKE PROVE THEMSELVES TO EACH OTHER TO LIKE... CLAIM ME?
+                        @voice_idle VOICE: To claim part of your fandom, really.
+                        @karkat_yell KARKAT: AND WHAT VALLIANT BULLSHIT DID YOU PULL OFF TO DO THAT?
+                        @voice_talk VOICE: I accidently a genre of “Ask-Blogs” specifically for voice actors to gain recognition independently, that forces them to think more about the character and study them more than you would have to from doing Comic Dubs or Pesterlog readings. It’s like writing your own fanfiction to 15 different prompts once an update and then voicing it.
+                        @voice_idle VOICE: I always focused on writing you as faithful to canon as I can, and acting off of that. I always noticed that was kind of a rare thing to see. Wanted to do you justice.
+                        @karkat_what KARKAT: SO YOU THOUGHT YOU WERE BETTER THAN EVERYONE ELSE?
+                        @voice_idle VOICE: I’m not sure that’s a fair way to phrase it. I have a lot of inspirations I pull from, and I'm obviously not perfect. As time's gone on there's been fewer voices and interpretations of you to run into, so it's not like there is much competition I could even say that about in the first place.
+                        @voice_idle VOICE: Karkat was once commonly available in a variety of flavors produced by a number of brands with varying degrees of quality. Back in the day you could pick up one or two going through pretty much any tag on tumblr.
+                        @karkat_yell KARKAT: SO THERE'S BEEN A LOT OF ME OUT THERE...
+                        @karkat_talk KARKAT: WHAT EXACTLY IS YOUR VARIETY, THOUGH?
+                        @voice_talk VOICE: Well... it’s this! It’s what’s on this blog!
+                        @karkat_yell KARKAT: BUT, I MEAN... WHO THE FUCK ARE YOU? 
+                        @voice_idle VOICE: Oh, we’re going this route, aren’t we?
+                        @karkat_what KARKAT: ...
+                        @case_talk CASE: My name's Jorin but a lot of people call me Case.
+                        @karkat_horror KARKAT: WHOA.
+                        @case_huh CASE: What?
+                        @karkat_talk KARKAT: YOU LOOK LIKE SOME FREAK COMBINATION OF STRIDER AND EGBERT.
+                        @case_slytalk CASE: Oh. Yeah. I get that a lot. This look is pretty outdated, actually.
+                        @karkat_what KARKAT: SO, JUST SO I CAN CHECK WHERE I’M AT HERE...
+                        @karkat_talk KARKAT: YOU’RE A REAL PERSON, WHO’S A FAN OF A COMIC THAT I’M IN...
+                        @karkat_yell KARKAT: WHO RUNS A BLOG WHERE YOU WRITE AND VOICE ACT AS ME?
+                        @case_idle CASE: Yes. 
+                        @karkat_talk KARKAT: SO IT’S NOT MY BLOG, IT’S YOURS.
+                        @case_slytalk CASE: It’s yours just as much as it is mine.
+                        @karkat_what KARKAT: ... 
+                        @karkat_eyeroll2 KARKAT: ARE YOU GOING TO GET ALL SENTIMENTAL OVER ME NOW?
+                        @case_slytalk CASE: Nah, I'm just trying to find a way to dump the blame for the lack of updates.
+                        @case_huhtalk CASE: But really, you are a character who’s not just enjoyed by people in a webcomic, but an anchor for the fandom you’re part of and one of the most relatable characters to the comic’s fans. 
+                        @case_talk CASE: The emotional struggles the world has seen you go through has made a lot of people feel like they know you personally. You've represented, over the course of the comic, the issues a lot of members of the young adult audience face.
+                        @case_huhtalk CASE: So the fact is, people don’t come to that blog to talk to me. In fact, up until this point, I have never once on that blog mentioned myself as its creator or linked back to my main blog. Because it’s not me they’re talking to. It’s not my views. It’s not my voice.
+                        @case_talk CASE: It’s you. They cared about you.
+                        @case_talk CASE: You’re the one talking.
+                        @case_sly CASE: I’m just kinda the one hitting a publish button.
+                        @karkat_sullen KARKAT:
+                        @case_slytalk CASE: (And right now I’m kind of a shameless self-insert, too)
+                        @karkat_what KARKAT:
+                        @case_slytalk CASE: You don’t have to say anything. Except maybe into a microphone. To, you know, update the blog. Maybe. It's been a while.
+                        @case_slytalk CASE: Until then, if you remember any secrets from the canon flashes, you should go looking for them now. There's one I just opened up for you, and a friend of yours who could use some company.
+                        @case_talk CASE: See you around.
+                    </args>
+                    <action command='removeSprite'>
+                        <args>block3,lab2</args>
+                        <action command='changeRoom'>
+                            <args>lab1,300,1500</args>
+                        </action>
+                    </action>
+
+                </action>
+            </sprite>
+
+            <sprite name="lab1_BG">
+                <animation colSize="500" numCols="7" numRows="7" rowSize="500" sheet="lab1_BG" sliced="true"/>
+            </sprite>
+
+            <sprite depthing="2" name="lab1_FG">
+                <animation colSize="500" numCols="7" numRows="7" rowSize="500" sheet="lab1_FG" sliced="true"/>
+            </sprite>
+
+        </room>
+    </rooms>
+
+</sburb>
